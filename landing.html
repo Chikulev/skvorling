@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skvorling (Скворлинг) — Пассивный английский прямо в браузере</title>
+  <meta name="description" content="Учите английский, просто читая привычные сайты. Умная контекстная подмена слов с учётом русской морфологии, времён и падежей.">
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body data-theme="colorful">
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Sticky Glass Navigation -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#top" class="brand">
+        <img src="../icons/icon48.png" alt="Skvorling" class="logo-img" width="34" height="34">
+        <span class="brand-text">Skvorling</span>
+        <span class="version-pill">v2.2.3</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#playground">Песочница</a>
+        <a href="#progression">Прогресс</a>
+        <a href="#features">Возможности</a>
+        <a href="#compare">Сравнение</a>
+        <a href="#install">Установка</a>
+      </nav>
+      <div class="nav-right">
+        <div class="theme-switcher" id="lpThemeSwitcher" title="Переключить тему оформления">
+          <button type="button" data-theme="light" title="Светлая тема">☀️</button>
+          <button type="button" data-theme="colorful" class="active" title="Красочная тема">🎨</button>
+          <button type="button" data-theme="dark" title="Тёмная тема">🌙</button>
+        </div>
+        <a href="../demo/demo.html" class="btn btn-ghost">🧪 Демо</a>
+        <a href="#install" class="btn btn-primary">Установить</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Ambient Aurora + Giant Interactive Starling Mascot -->
+  <section class="hero" id="top">
+    <!-- Full-bleed blurred aurora orbs (zero hard box edges on any screen!) -->
+    <div class="hero-ambient" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="orb orb-4"></div>
+
+      
+    </div>
+
+    <div class="container hero-container-wide hero-grid">
+      <!-- Column 1: Opaque Interactive Starling Mascot -->
+      <div class="hero-mascot-col">
+        <svg id="heroStarling" class="hero-starling" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="stBody" x1="80" y1="60" x2="340" y2="360" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#312e81"/>
+            <stop offset="55%" stop-color="#1e1b4b"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+          </linearGradient>
+          <linearGradient id="stWing" x1="110" y1="180" x2="290" y2="310" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#06b6d4"/>
+            <stop offset="55%" stop-color="#10b981"/>
+            <stop offset="100%" stop-color="#6366f1"/>
+          </linearGradient>
+          <linearGradient id="stBeak" x1="295" y1="125" x2="395" y2="155" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#fbbf24"/>
+            <stop offset="100%" stop-color="#f97316"/>
+          </linearGradient>
+        </defs>
+        <!-- Soft glowing perch aura -->
+        <circle cx="210" cy="215" r="165" fill="currentColor" opacity="0.06"/>
+        <!-- Tail -->
+        <path d="M115 245 L38 312 L72 342 L152 292 Z" fill="#1e1b4b"/>
+        <!-- Body -->
+        <ellipse cx="205" cy="242" rx="112" ry="96" fill="url(#stBody)"/>
+        <!-- Head -->
+        <circle cx="255" cy="148" r="72" fill="url(#stBody)"/>
+        <!-- Iridescent Wing (gently animated) -->
+        <g class="st-wing-group">
+          <path d="M116 210 C116 296, 224 328, 286 254 C252 214, 182 184, 116 210 Z" fill="url(#stWing)"/>
+          <!-- Starling signature golden speckles -->
+          <circle cx="164" cy="242" r="8" fill="#fde047"/>
+          <circle cx="198" cy="258" r="7" fill="#fde047"/>
+          <circle cx="228" cy="238" r="8" fill="#fde047"/>
+          <circle cx="184" cy="282" r="6" fill="#fde047"/>
+          <circle cx="246" cy="264" r="5" fill="#fde047"/>
+        </g>
+        <!-- Golden Beak -->
+        <path d="M312 124 L396 150 L312 176 Z" fill="url(#stBeak)"/>
+        <!-- Expressive Eye (pupil tracks cursor!) -->
+        <circle cx="272" cy="138" r="26" fill="#ffffff"/>
+        <g id="starlingPupil">
+          <circle cx="278" cy="138" r="13" fill="#0f172a"/>
+          <circle cx="283" cy="132" r="4.5" fill="#ffffff"/>
+        </g>
+      </svg>
+      </div>
+
+      <div class="hero-copy">
+        <div class="eyebrow-pill">
+          <span class="pulse-dot"></span>
+          <span>🐦 Скворлинг · skvorling.ru · 100% локально</span>
+        </div>
+        <h1>Учите английский, просто читая <span class="gradient-text">привычные сайты</span></h1>
+        <p class="hero-lead">
+          Как скворец естественно перенимает звуки вокруг себя, так и вы запоминаете английский в обычном чтении: Skvorling мягко подставляет очевидные слова в длинные предложения с учётом времён, причастий и падежей — без уроков и зубрёжки.
+        </p>
+        <div class="hero-cta">
+          <a href="#install" class="btn btn-primary btn-lg">Установить за 60 секунд →</a>
+          <a href="../demo/demo.html" class="btn btn-secondary btn-lg">🧪 Открыть демо-статью</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item"><strong>1 014+</strong><span>проверенных слов</span></div>
+          <div class="trust-sep"></div>
+          <div class="trust-item"><strong>&lt; 50 мс</strong><span>работает офлайн</span></div>
+          <div class="trust-sep"></div>
+          <div class="trust-item"><strong>4 пакета</strong><span>IT · Бизнес · Лит. · Мед.</span></div>
+        </div>
+      </div>
+
+      <!-- 3D Tilt Interactive Browser Mockup -->
+      <div class="hero-mockup-stage">
+        <div class="browser-window tilt-card" id="heroTiltCard">
+          <div class="tilt-sheen"></div>
+          <div class="browser-chrome">
+            <div class="dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <a href="https://skvorling.ru" target="_blank" rel="noopener" class="address-bar">https://skvorling.ru</a>
+            <div class="chrome-badge">🐦 <span id="heroWordCount">0</span></div>
+          </div>
+
+          <div class="browser-toolbar">
+            <div class="density-tabs" id="heroDensity">
+              <button type="button" class="d-tab" data-density="1" data-cefr="A1">Старт · 1 сл.</button>
+              <button type="button" class="d-tab active" data-density="3" data-cefr="B1">Погружение · 3 сл.</button>
+              <button type="button" class="d-tab" data-density="5" data-cefr="C1">Профи · 5 сл.</button>
+            </div>
+            <div class="toolbar-right">
+              <button type="button" class="d-tab" id="heroCompareBtn" title="Сравнить с оригинальным русским текстом">🇷🇺 Оригинал</button>
+              <button type="button" class="shuffle-btn" id="heroShuffle" title="Перетасовать слова рандомайзером">🎲</button>
+            </div>
+          </div>
+
+          <div class="browser-body">
+            <div class="article-meta">
+              <span>Наведите на слово → нажмите «✓ Знаю», чтобы скрыть его</span>
+              <button type="button" class="reset-known-btn hidden" id="heroResetKnown">Вернуть скрытые (<span id="heroKnownCount">0</span>)</button>
+            </div>
+            <div class="article-text" id="heroArticle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Interactive Playground -->
+  <section class="section section-alt reveal" id="playground">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Живая песочница</span>
+        <h2>Проверьте на любом русском тексте прямо сейчас</h2>
+        <p>Переключайте тематические пакеты, вставьте свой абзац или введите пасхалку <code>Skvor lingua</code> — здесь работает настоящий морфологический движок Skvorling.</p>
+      </div>
+
+      <div class="playground-card">
+        <div class="pg-controls">
+          <div class="pg-presets" id="pgPresets">
+            <button type="button" class="pg-tab active" data-preset="morning">☕ Утро и быт</button>
+            <button type="button" class="pg-tab" data-preset="tech">🔧 IT и инженерия</button>
+            <button type="button" class="pg-tab" data-preset="grammar">⚡ Времена и падежи</button>
+            <button type="button" class="pg-tab" data-preset="business">💼 Бизнес</button>
+          </div>
+          <div class="pg-right">
+            <label class="pg-toggle">
+              <input type="checkbox" id="pgRandomizer" checked>
+              <span>🎲 Рандомайзер</span>
+            </label>
+            <button type="button" class="btn btn-sm btn-secondary" id="pgRerun">↻ Обновить</button>
+          </div>
+        </div>
+
+        <div class="pg-split">
+          <div class="pg-pane">
+            <div class="pane-label">Исходный русский текст (можно редактировать)</div>
+            <textarea id="pgInput" class="pg-textarea" rows="5"></textarea>
+          </div>
+          <div class="pg-pane pg-pane-out">
+            <div class="pane-label">
+              <span>Результат Skvorling</span>
+              <span class="pane-stat" id="pgStat">Заменено: 0 слов</span>
+            </div>
+            <div id="pgOutput" class="pg-output"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive 5-Stage Progression Simulator -->
+  <section class="section reveal" id="progression">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Адаптивный рост сложности</span>
+        <h2>Как растёт ваш английский без лишних усилий</h2>
+        <p>Подвигайте ползунок — по мере того как вы запоминаете слова, Skvorling сам повышает плотность с 1 до 5 слов на предложение и открывает уровни от A1 до C1.</p>
+      </div>
+
+      <div class="prog-sim">
+        <div class="prog-top">
+          <div>
+            <span class="prog-badge" id="progBadge">Уровень 1 · Старт (A1)</span>
+            <p class="prog-desc" id="progDesc">1 базовое очевидное слово в длинном предложении</p>
+          </div>
+          <div class="prog-slider-wrap">
+            <input type="range" id="progSlider" min="1" max="5" step="1" value="1">
+            <div class="prog-ticks">
+              <span>День 1</span>
+              <span>Нед. 2</span>
+              <span>Мес. 1</span>
+              <span>Мес. 2</span>
+              <span>Профи</span>
+            </div>
+          </div>
+        </div>
+        <div class="prog-preview" id="progPreview"></div>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card glow-card">
+          <div class="step-num">01</div>
+          <h3>Только длинные предложения</h3>
+          <p>Короткие заголовки, меню, поля ввода и код никогда не затрагиваются. Слова заменяются только там, где вокруг достаточно контекста для мгновенной догадки.</p>
+        </div>
+        <div class="step-card glow-card">
+          <div class="step-num">02</div>
+          <h3>Живая грамматика, а не словарь</h3>
+          <p>Вместо «сырых» словарных форм Skvorling подбирает актуальную: <code>работает → works</code>, <code>работал → worked</code>, <code>работающий → working</code>, <code>быстрее → faster</code>, <code>рукой → by hand</code>.</p>
+        </div>
+        <div class="step-card glow-card">
+          <div class="step-num">03</div>
+          <h3>Автоматическое усвоение</h3>
+          <p>Пролистали слово 5 раз без подсказки — оно переходит в статус «Освоено» и больше не мешает. Навели мышку — Skvorling покажет его снова в другом тексте.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bento Feature Grid -->
+  <section class="section section-alt reveal" id="features">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Продумано до мелочей</span>
+        <h2>Всё, чего не хватало в обычных переводчиках</h2>
+      </div>
+
+      <div class="bento-grid">
+        <div class="bento-card bento-wide glow-card">
+          <div class="bento-icon">🙈</div>
+          <h3>Режим «Скрывать изученные» (по умолчанию)</h3>
+          <p>Устали видеть элементарные <em>old, new, word</em>? В Skvorling изученные слова сразу исчезают со страницы при клике «✓ Знаю». Есть кнопка <strong>«⚡ Я уже знаю A1»</strong> и переключатель в режим накопления % английского текста.</p>
+        </div>
+        <div class="bento-card glow-card">
+          <div class="bento-icon">🔍</div>
+          <h3>Навигатор (Alt+Shift+F)</h3>
+          <p>Плавающая панель как <code>Ctrl+F</code>: перескакивайте по всем английским словам на странице, слушайте их и перетасовывайте в один клик.</p>
+        </div>
+        <div class="bento-card glow-card">
+          <div class="bento-icon">🎲</div>
+          <h3>Top-Pool рандомайзер</h3>
+          <p>Выбирает слова не шаблонно, а взвешенно-случайно из группы самых полезных кандидатов — каждый текст приносит свежие слова.</p>
+        </div>
+        <div class="bento-card bento-wide glow-card">
+          <div class="bento-icon">📦</div>
+          <h3>854 базовых слова + 4 тематических пакета</h3>
+          <p>Подключайте профильные словари прямо из попапа или загружайте свои JSON-паки:</p>
+          <div class="pack-pills">
+            <span class="pack-pill"><strong>🔧 IT и техника:</strong> satellite · sensor · firmware · latency</span>
+            <span class="pack-pill"><strong>💼 Бизнес:</strong> margin · conversion · shipment · contract</span>
+            <span class="pack-pill"><strong>📖 Литература:</strong> horizon · twilight · whisper · destiny</span>
+            <span class="pack-pill"><strong>🩺 Медицина:</strong> symptom · immunity · recovery · pressure</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Table -->
+  <section class="section reveal" id="compare">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Честное сравнение</span>
+        <h2>Чем Skvorling отличается от аналогов</h2>
+      </div>
+
+      <div class="compare-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Критерий</th>
+              <th class="col-highlight">🐦 Skvorling</th>
+              <th>Toucan by Babbel</th>
+              <th>Duolingo / Карточки</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Оптимизация под русскоязычные сайты</td>
+              <td class="col-highlight"><span class="ok">✓ Полная</span></td>
+              <td><span class="no">✕ Нет русского</span></td>
+              <td><span class="muted">— Отдельное приложение</span></td>
+            </tr>
+            <tr>
+              <td>Русская морфология (времена, причастия, падежи)</td>
+              <td class="col-highlight"><span class="ok">✓ works / working / by hand</span></td>
+              <td><span class="no">✕ Только базовые формы</span></td>
+              <td><span class="ok">✓ В упражнениях</span></td>
+            </tr>
+            <tr>
+              <td>Не требует выделять отдельное время</td>
+              <td class="col-highlight"><span class="ok">✓ 0 мин сверх чтения</span></td>
+              <td><span class="ok">✓ Да</span></td>
+              <td><span class="no">✕ 15–30 мин/день</span></td>
+            </tr>
+            <tr>
+              <td>Скрытие уже известных слов в 1 клик</td>
+              <td class="col-highlight"><span class="ok">✓ По умолчанию + пропуск A1</span></td>
+              <td><span class="muted">~ Частично</span></td>
+              <td><span class="no">✕ Фиксированные уроки</span></td>
+            </tr>
+            <tr>
+              <td>100% офлайн-приватность без облачной слежки</td>
+              <td class="col-highlight"><span class="ok">✓ Локальный движок</span></td>
+              <td><span class="no">✕ Облачный API</span></td>
+              <td><span class="no">✕ Облачный аккаунт</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 60-second Installation + FAQ -->
+  <section class="section section-alt reveal" id="install">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Быстрый старт</span>
+        <h2>Установка за 60 секунд</h2>
+        <p>Работает в Google Chrome, Яндекс Браузере, Microsoft Edge, Brave и Arc.</p>
+      </div>
+
+      <div class="download-box">
+        <div class="download-info">
+          <img src="../icons/icon48.png" alt="Skvorling" width="44" height="44" style="display:block;">
+          <div>
+            <strong>Skvorling v2.2.3 для Chrome, Яндекс Браузера, Edge, Brave и Arc</strong>
+            <p>Полный архив расширения · 1 014+ слов · Manifest V3 · 100% локально и бесплатно</p>
+          </div>
+        </div>
+        <a href="./skvorling-extension.zip" download="skvorling-extension.zip" class="btn btn-primary btn-lg">⬇️ Скачать расширение (.zip)</a>
+      </div>
+
+      <div class="install-steps">
+        <div class="inst-step glow-card">
+          <span class="inst-num">1</span>
+          <div>
+            <strong>Распакуйте архив</strong>
+            <p>Сохраните папку <code>skvorling-extension</code> в постоянное место на диске.</p>
+          </div>
+        </div>
+        <div class="inst-step glow-card">
+          <span class="inst-num">2</span>
+          <div>
+            <strong>Откройте расширения</strong>
+            <p>Перейдите по адресу <code>chrome://extensions</code> (или <code>browser://extensions</code>).</p>
+            <button type="button" class="copy-chip" id="btnCopyExtUrl">📋 Скопировать адрес</button>
+          </div>
+        </div>
+        <div class="inst-step glow-card">
+          <span class="inst-num">3</span>
+          <div>
+            <strong>Включите режим разработчика</strong>
+            <p>Переключатель находится в правом верхнем углу страницы расширений.</p>
+          </div>
+        </div>
+        <div class="inst-step glow-card">
+          <span class="inst-num">4</span>
+          <div>
+            <strong>Загрузите папку</strong>
+            <p>Нажмите «Загрузить распакованное расширение» и выберите папку <code>skvorling-extension</code>.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>Мешает ли расширение работе с кодом, Google Docs или таблицами?</summary>
+          <p>Нет. Skvorling автоматически пропускает блоки кода, поля ввода и системные меню, а <code>docs.google.com</code> и <code>github.com</code> уже добавлены в исключения. Любой сайт можно поставить на паузу в 1 клик или нажать <code>Alt+Shift+E</code>.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Как озвучиваются слова, если нет интернета?</summary>
+          <p>Используется встроенный в браузер синтезатор речи (Web Speech API) с выбором американского (en-US) или британского (en-GB) акцента — работает мгновенно и бесплатно.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Можно ли добавить свои рабочие термины?</summary>
+          <p>Да! В дашборде расширения есть вкладка «Мои слова» (с поддержкой русских окончаний) и импорт целых тематических пакетов в формате JSON.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-banner reveal">
+    <div class="container cta-inner">
+      <div>
+        <h2>Попробуйте на живой статье прямо сейчас</h2>
+        <p>Убедитесь за 30 секунд, как естественно мозг считывает английские слова в длинном русском контексте.</p>
+      </div>
+      <div class="cta-buttons">
+        <a href="../demo/demo.html" class="btn btn-primary btn-lg">🧪 Открыть демо-статью</a>
+        <a href="../dashboard/dashboard.html" class="btn btn-secondary btn-lg">📊 Открыть дашборд</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="https://skvorling.ru" target="_blank" rel="noopener" class="brand">
+        <img src="../icons/icon48.png" alt="Skvorling" class="logo-img" width="28" height="28">
+        <span class="brand-text">Skvorling</span>
+      </a>
+      <div class="footer-note">skvorling.ru · Мы нашли, где живёт язык · Manifest V3</div>
+      <div class="footer-links">
+        <a href="../demo/demo.html">Демо</a>
+        <a href="../dashboard/dashboard.html">Дашборд</a>
+        <a href="#top">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Floating Tooltip -->
+  <div id="lpTooltip" class="lp-tooltip" role="tooltip" hidden></div>
+
+  <script src="../src/dictionary.js"></script>
+  <script src="../src/packs.js"></script>
+  <script src="../src/nlp.js"></script>
+  <script src="../src/storage.js"></script>
+  <script src="landing.js"></script>
+</body>
+</html>
