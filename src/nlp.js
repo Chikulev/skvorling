@@ -435,7 +435,7 @@
   function weightedPickFromPool(pool, rng) {
     if (pool.length === 1) return pool[0];
     const minScore = pool[pool.length - 1].score;
-    const weights = pool.map((c) => Math.pow(Math.max(1, c.score - minScore + 10), 1.12));
+    const weights = pool.map((c) => Math.pow(Math.max(1, c.score - minScore + 12), 0.85));
     const total = weights.reduce((a, b) => a + b, 0);
     let r = rng() * total;
     for (let i = 0; i < pool.length; i++) {
@@ -455,7 +455,7 @@
     const progressMap = options.progressMap || {};
     const pageUsedIds = options.pageUsedIds || new Set();
     const useRandomizer = options.useRandomizer !== undefined ? !!options.useRandomizer : true;
-    const randomPoolDelta = options.randomPoolDelta ?? 32;
+    const randomPoolDelta = options.randomPoolDelta ?? 44;
     const smartGrammar = options.smartGrammar !== undefined ? !!options.smartGrammar : true;
     const hideMasteredWords = options.hideMasteredWords !== undefined ? !!options.hideMasteredWords : true;
     const usePhrases = options.usePhrases !== undefined ? !!options.usePhrases : true;
@@ -663,7 +663,7 @@
           const topScore = remaining[0].score;
           const pool = remaining
             .filter((c) => topScore - c.score <= randomPoolDelta)
-            .slice(0, 5);
+            .slice(0, 8);
           picked = weightedPickFromPool(pool, rng);
         } else {
           picked = remaining[0];

@@ -628,13 +628,6 @@
     }
 
     const packEntries = getActivePackEntries(state.settings.enabledPacks);
-    // Fast page-language pre-check: skip English-only sites with 0ms overhead
-    const sampleText = (document.body && document.body.innerText || '').slice(0, 2500);
-    const cyrChars = (sampleText.match(/[А-Яа-яЁё]/g) || []).length;
-    const latChars = (sampleText.match(/[A-Za-z]/g) || []).length;
-    if (cyrChars < 30 || (cyrChars + latChars > 0 && cyrChars / (cyrChars + latChars) < 0.15)) {
-      return;
-    }
     index = NLP.buildIndex(DICT, state.customWords, packEntries);
     effective = Storage.getEffectiveConfig(state, NLP);
 

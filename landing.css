@@ -1141,3 +1141,15 @@ body[data-theme="dark"] .ver-check-pill { color: #6ee7b7; }
 .tl-cat { font-size: 11px; color: var(--muted); font-weight: 600; margin-left: auto; }
 .tl-card strong { font-size: 15.5px; }
 .tl-card p { font-size: 13.8px; color: var(--text-soft); }
+
+/* v2.8.1 Mobile Navbar Overflow Fix (zero right-side white gutter on any phone!) */
+html, body { max-width: 100%; overflow-x: clip; }
+@media (max-width: 640px) {
+  .nav-inner { padding: 10px 14px; gap: 8px; }
+  .brand-text { font-size: 16px; }
+  .version-pill, .nav-right .btn-ghost { display: none; }
+  .nav-right { gap: 6px; }
+  .theme-switcher button { width: 26px; height: 26px; font-size: 13px; }
+  .nav-right .btn-primary { padding: 7px 11px; font-size: 13px; }
+  .container { padding: 0 16px; }
+}

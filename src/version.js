@@ -2,7 +2,7 @@
 (function (root) {
   'use strict';
 
-  const FALLBACK_VERSION = '2.8.0';
+  const FALLBACK_VERSION = '2.8.1';
 
   function getSkvorlingVersion() {
     try {
