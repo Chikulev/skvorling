@@ -1,0 +1,326 @@
+/* Kontext v2.0 In-Page Word Highlights, Isolated Floating Tooltip & Word Navigator */
+
+.kontext-word {
+  cursor: pointer;
+  transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.2s ease;
+  border-radius: 3px;
+}
+
+.kontext-style-underline .kontext-word {
+  border-bottom: 1.5px dotted rgba(99, 102, 241, 0.72);
+  padding-bottom: 0.5px;
+}
+
+.kontext-style-underline .kontext-word:hover {
+  background-color: rgba(99, 102, 241, 0.12);
+  border-bottom-style: solid;
+}
+
+.kontext-style-pill .kontext-word {
+  background-color: rgba(99, 102, 241, 0.11);
+  border-bottom: 1px solid rgba(99, 102, 241, 0.35);
+  padding: 0 3px;
+}
+
+.kontext-style-pill .kontext-word:hover {
+  background-color: rgba(99, 102, 241, 0.22);
+}
+
+.kontext-style-minimal .kontext-word {
+  border-bottom: 1px dotted transparent;
+}
+
+.kontext-style-minimal .kontext-word:hover {
+  border-bottom-color: rgba(99, 102, 241, 0.65);
+  background-color: rgba(99, 102, 241, 0.08);
+}
+
+.kontext-word.kontext-mastered {
+  border-bottom-color: rgba(16, 185, 129, 0.55) !important;
+}
+
+/* Active word focus ring when jumping via Word Navigator */
+.kontext-word.kontext-nav-active {
+  background-color: rgba(245, 158, 11, 0.28) !important;
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.85);
+  border-radius: 4px;
+  padding: 0 3px;
+}
+
+/* Isolated Floating Tooltip */
+#kontext-tooltip-root.kontext-tooltip {
+  all: initial;
+  position: fixed;
+  z-index: 2147483647;
+  width: 282px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #f8fafc;
+  background: #0f172a;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 14px 36px rgba(2, 6, 23, 0.48), 0 2px 8px rgba(2, 6, 23, 0.25);
+  animation: kontextFadeIn 0.14s ease-out;
+}
+
+@keyframes kontextFadeIn {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#kontext-tooltip-root .kt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+#kontext-tooltip-root .kt-word-group {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+#kontext-tooltip-root .kt-badges {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+#kontext-tooltip-root .kt-en {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+#kontext-tooltip-root .kt-ipa {
+  font-size: 12px;
+  color: #94a3b8;
+  font-family: "Lucida Sans Unicode", "Segoe UI", sans-serif;
+}
+
+#kontext-tooltip-root .kt-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 999px;
+  letter-spacing: 0.03em;
+}
+
+#kontext-tooltip-root .kt-core { background: rgba(250, 204, 21, 0.18); color: #fde047; }
+#kontext-tooltip-root .kt-level-A1 { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; }
+#kontext-tooltip-root .kt-level-A2 { background: rgba(56, 189, 248, 0.2); color: #7dd3fc; }
+#kontext-tooltip-root .kt-level-B1 { background: rgba(99, 102, 241, 0.25); color: #a5b4fc; }
+#kontext-tooltip-root .kt-level-B2 { background: rgba(245, 158, 11, 0.22); color: #fcd34d; }
+#kontext-tooltip-root .kt-level-C1 { background: rgba(244, 63, 94, 0.22); color: #fda4af; }
+
+#kontext-tooltip-root .kt-translation {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 8px;
+}
+
+#kontext-tooltip-root .kt-ru {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+#kontext-tooltip-root .kt-lemma {
+  font-size: 12px;
+  font-weight: 400;
+  color: #94a3b8;
+}
+
+#kontext-tooltip-root .kt-grammar {
+  font-size: 11.5px;
+  color: #38bdf8;
+}
+
+#kontext-tooltip-root .kt-cue {
+  font-size: 11px;
+  color: #a5b4fc;
+  background: rgba(99, 102, 241, 0.14);
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+}
+
+#kontext-tooltip-root .kt-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+#kontext-tooltip-root .kt-bar {
+  flex: 1;
+  height: 5px;
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+#kontext-tooltip-root .kt-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #6366f1, #10b981);
+  border-radius: 999px;
+  transition: width 0.25s ease;
+}
+
+#kontext-tooltip-root .kt-status {
+  font-size: 11px;
+  color: #cbd5e1;
+  white-space: nowrap;
+}
+
+#kontext-tooltip-root .kt-actions {
+  display: flex;
+  gap: 6px;
+}
+
+#kontext-tooltip-root .kt-btn {
+  flex: 1;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(30, 41, 59, 0.9);
+  color: #e2e8f0;
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 500;
+  padding: 5px 6px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  text-align: center;
+}
+
+#kontext-tooltip-root .kt-btn:hover {
+  background: rgba(51, 65, 85, 1);
+  border-color: rgba(148, 163, 184, 0.45);
+}
+
+#kontext-tooltip-root .kt-btn-know:hover {
+  background: rgba(16, 185, 129, 0.22);
+  border-color: rgba(16, 185, 129, 0.5);
+  color: #6ee7b7;
+}
+
+#kontext-tooltip-root .kt-btn-hide:hover {
+  background: rgba(244, 63, 94, 0.2);
+  border-color: rgba(244, 63, 94, 0.45);
+  color: #fda4af;
+}
+
+/* Floating Word Navigator Bar (Ctrl+F style) */
+#kontext-navigator-root.kontext-nav {
+  all: initial;
+  position: fixed;
+  top: 16px;
+  right: 20px;
+  z-index: 2147483647;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.96);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(148, 163, 184, 0.26);
+  box-shadow: 0 12px 32px rgba(2, 6, 23, 0.48);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+  color: #f8fafc;
+  font-size: 12.5px;
+  user-select: none;
+}
+
+#kontext-navigator-root .kn-brand {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #6366f1, #10b981);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 12px;
+  color: #fff;
+}
+
+#kontext-navigator-root .kn-counter {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  min-width: 48px;
+  text-align: center;
+  color: #e2e8f0;
+}
+
+#kontext-navigator-root .kn-filter {
+  background: rgba(99, 102, 241, 0.18);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  color: #c7d2fe;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#kontext-navigator-root .kn-divider {
+  width: 1px;
+  height: 18px;
+  background: rgba(148, 163, 184, 0.22);
+  margin: 0 2px;
+}
+
+#kontext-navigator-root .kn-btn {
+  background: rgba(30, 41, 59, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  color: #e2e8f0;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  width: 28px;
+  height: 26px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.14s ease, border-color 0.14s ease;
+}
+
+#kontext-navigator-root .kn-btn:hover {
+  background: rgba(51, 65, 85, 1);
+  border-color: rgba(165, 180, 252, 0.55);
+}
+
+#kontext-navigator-root .kn-close:hover {
+  background: rgba(244, 63, 94, 0.25);
+  color: #fda4af;
+}
+
+/* Starred (Active Study) Word & Tooltip Button (v2.6) */
+.kontext-word.kontext-starred {
+  border-bottom-color: rgba(245, 158, 11, 0.85) !important;
+}
+#kontext-tooltip-root .kt-btn-speak,
+#kontext-tooltip-root .kt-btn-hide { flex: 0 0 34px; }
+#kontext-tooltip-root .kt-btn-star.is-starred {
+  background: rgba(245, 158, 11, 0.22);
+  border-color: rgba(245, 158, 11, 0.55);
+  color: #fde047;
+}
+#kontext-tooltip-root .kt-btn-star:hover {
+  background: rgba(245, 158, 11, 0.18);
+  border-color: rgba(245, 158, 11, 0.5);
+  color: #fde047;
+}
