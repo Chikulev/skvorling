@@ -15,15 +15,15 @@
   <header class="navbar">
     <div class="nav-inner">
       <a href="#top" class="brand">
-        <img src="../icons/icon48.png" alt="Skvorling" class="logo-img" width="34" height="34">
+        <img src="icons/icon48.png" alt="Skvorling" class="logo-img" width="34" height="34">
         <span class="brand-text">Skvorling</span>
-        <span class="version-pill">v2.2.3</span>
+        <span class="version-pill" data-skvorling-version>v2.4.0</span>
       </a>
       <nav class="nav-links">
         <a href="#playground">Песочница</a>
         <a href="#progression">Прогресс</a>
-        <a href="#features">Возможности</a>
-        <a href="#compare">Сравнение</a>
+        <a href="#engine">Алгоритм</a>
+        <a href="#changelog">Версии</a>
         <a href="#install">Установка</a>
       </nav>
       <div class="nav-right">
@@ -32,7 +32,7 @@
           <button type="button" data-theme="colorful" class="active" title="Красочная тема">🎨</button>
           <button type="button" data-theme="dark" title="Тёмная тема">🌙</button>
         </div>
-        <a href="../demo/demo.html" class="btn btn-ghost">🧪 Демо</a>
+        <a href="demo/demo.html" class="btn btn-ghost">🧪 Демо</a>
         <a href="#install" class="btn btn-primary">Установить</a>
       </div>
     </div>
@@ -50,55 +50,7 @@
       
     </div>
 
-    <div class="container hero-container-wide hero-grid">
-      <!-- Column 1: Opaque Interactive Starling Mascot -->
-      <div class="hero-mascot-col">
-        <svg id="heroStarling" class="hero-starling" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="stBody" x1="80" y1="60" x2="340" y2="360" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stop-color="#312e81"/>
-            <stop offset="55%" stop-color="#1e1b4b"/>
-            <stop offset="100%" stop-color="#0f172a"/>
-          </linearGradient>
-          <linearGradient id="stWing" x1="110" y1="180" x2="290" y2="310" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stop-color="#06b6d4"/>
-            <stop offset="55%" stop-color="#10b981"/>
-            <stop offset="100%" stop-color="#6366f1"/>
-          </linearGradient>
-          <linearGradient id="stBeak" x1="295" y1="125" x2="395" y2="155" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stop-color="#fbbf24"/>
-            <stop offset="100%" stop-color="#f97316"/>
-          </linearGradient>
-        </defs>
-        <!-- Soft glowing perch aura -->
-        <circle cx="210" cy="215" r="165" fill="currentColor" opacity="0.06"/>
-        <!-- Tail -->
-        <path d="M115 245 L38 312 L72 342 L152 292 Z" fill="#1e1b4b"/>
-        <!-- Body -->
-        <ellipse cx="205" cy="242" rx="112" ry="96" fill="url(#stBody)"/>
-        <!-- Head -->
-        <circle cx="255" cy="148" r="72" fill="url(#stBody)"/>
-        <!-- Iridescent Wing (gently animated) -->
-        <g class="st-wing-group">
-          <path d="M116 210 C116 296, 224 328, 286 254 C252 214, 182 184, 116 210 Z" fill="url(#stWing)"/>
-          <!-- Starling signature golden speckles -->
-          <circle cx="164" cy="242" r="8" fill="#fde047"/>
-          <circle cx="198" cy="258" r="7" fill="#fde047"/>
-          <circle cx="228" cy="238" r="8" fill="#fde047"/>
-          <circle cx="184" cy="282" r="6" fill="#fde047"/>
-          <circle cx="246" cy="264" r="5" fill="#fde047"/>
-        </g>
-        <!-- Golden Beak -->
-        <path d="M312 124 L396 150 L312 176 Z" fill="url(#stBeak)"/>
-        <!-- Expressive Eye (pupil tracks cursor!) -->
-        <circle cx="272" cy="138" r="26" fill="#ffffff"/>
-        <g id="starlingPupil">
-          <circle cx="278" cy="138" r="13" fill="#0f172a"/>
-          <circle cx="283" cy="132" r="4.5" fill="#ffffff"/>
-        </g>
-      </svg>
-      </div>
-
+    <div class="container hero-grid">
       <div class="hero-copy">
         <div class="eyebrow-pill">
           <span class="pulse-dot"></span>
@@ -110,7 +62,7 @@
         </p>
         <div class="hero-cta">
           <a href="#install" class="btn btn-primary btn-lg">Установить за 60 секунд →</a>
-          <a href="../demo/demo.html" class="btn btn-secondary btn-lg">🧪 Открыть демо-статью</a>
+          <a href="demo/demo.html" class="btn btn-secondary btn-lg">🧪 Открыть демо-статью</a>
         </div>
         <div class="hero-trust">
           <div class="trust-item"><strong>1 014+</strong><span>проверенных слов</span></div>
@@ -251,6 +203,83 @@
     </div>
   </section>
 
+
+  <!-- Dedicated Brand & Mascot Square Showcase (Middle of the Page) -->
+  <section class="section reveal" id="mascot">
+    <div class="container">
+      <div class="mascot-showcase">
+        <div class="mascot-square glow-card" id="mascotSquare" title="Кликните на скворца!">
+          <div class="mascot-speech" id="mascotSpeech">Кликни на меня! 🐦</div>
+          <svg id="heroStarling" class="hero-starling" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="stBody" x1="80" y1="60" x2="340" y2="360" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#312e81"/>
+            <stop offset="55%" stop-color="#1e1b4b"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+          </linearGradient>
+          <linearGradient id="stWing" x1="110" y1="180" x2="290" y2="310" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#06b6d4"/>
+            <stop offset="55%" stop-color="#10b981"/>
+            <stop offset="100%" stop-color="#6366f1"/>
+          </linearGradient>
+          <linearGradient id="stBeak" x1="295" y1="125" x2="395" y2="155" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#fbbf24"/>
+            <stop offset="100%" stop-color="#f97316"/>
+          </linearGradient>
+        </defs>
+        <!-- Soft glowing perch aura -->
+        <circle cx="210" cy="215" r="165" fill="currentColor" opacity="0.06"/>
+        <!-- Tail -->
+        <path d="M115 245 L38 312 L72 342 L152 292 Z" fill="#1e1b4b"/>
+        <!-- Body -->
+        <ellipse cx="205" cy="242" rx="112" ry="96" fill="url(#stBody)"/>
+        <!-- Head -->
+        <circle cx="255" cy="148" r="72" fill="url(#stBody)"/>
+        <!-- Iridescent Wing (gently animated) -->
+        <g class="st-wing-group">
+          <path d="M116 210 C116 296, 224 328, 286 254 C252 214, 182 184, 116 210 Z" fill="url(#stWing)"/>
+          <!-- Starling signature golden speckles -->
+          <circle cx="164" cy="242" r="8" fill="#fde047"/>
+          <circle cx="198" cy="258" r="7" fill="#fde047"/>
+          <circle cx="228" cy="238" r="8" fill="#fde047"/>
+          <circle cx="184" cy="282" r="6" fill="#fde047"/>
+          <circle cx="246" cy="264" r="5" fill="#fde047"/>
+        </g>
+        <!-- Golden Beak -->
+        <path d="M312 124 L396 150 L312 176 Z" fill="url(#stBeak)"/>
+        <!-- Expressive Eye (pupil tracks cursor!) -->
+        <circle cx="272" cy="138" r="26" fill="#ffffff"/>
+        <g id="starlingPupil">
+          <circle cx="278" cy="138" r="13" fill="#0f172a"/>
+          <circle cx="283" cy="132" r="4.5" fill="#ffffff"/>
+        </g>
+      </svg>
+        </div>
+        <div class="mascot-story">
+          <span class="section-eyebrow">Почему Skvorling?</span>
+          <h2>Учите английский так же естественно, как скворец перенимает звуки</h2>
+          <p class="mascot-lead">
+            Скворцы — одни из лучших природных имитаторов в мире: они не зубрят правила, а просто впитывают звуки из окружающей среды. В названии <strong>Skvorling</strong> мы объединили русскую природу (<em>скворец</em>), латинское <em>lingua</em> (язык) и английский суффикс процесса <em>-ing</em>.
+          </p>
+          <div class="story-pills">
+            <div class="story-pill">
+              <strong>🐦 Природная привычка</strong>
+              <span>Язык усваивается фоном во время вашего обычного чтения — без отдельного времени.</span>
+            </div>
+            <div class="story-pill">
+              <strong>💬 Контекст вместо карточек</strong>
+              <span>Мозг сам связывает слово, форму и смысл прямо внутри живого предложения.</span>
+            </div>
+            <div class="story-pill">
+              <strong>✨ «Мы нашли, где живёт язык»</strong>
+              <span>Скворец всегда рядом — подскажет перевод, озвучит слово и спрячет уже выученное.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Bento Feature Grid -->
   <section class="section section-alt reveal" id="features">
     <div class="container">
@@ -285,6 +314,41 @@
             <span class="pack-pill"><strong>📖 Литература:</strong> horizon · twilight · whisper · destiny</span>
             <span class="pack-pill"><strong>🩺 Медицина:</strong> symptom · immunity · recovery · pressure</span>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Under the Hood & Your Own Reality -->
+  <section class="section reveal" id="engine">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Как это работает под капотом</span>
+        <h2>Не случайные слова, а точный анализ вашего контекста</h2>
+        <p>В отличие от учебников с выдуманными диалогами, в Skvorling вы учите язык на <strong>своей реальности</strong> — статьях, работе, комментариях и новостях, которые читаете прямо сейчас.</p>
+      </div>
+
+      <div class="engine-grid">
+        <div class="engine-step glow-card">
+          <span class="eng-tag">Шаг 1 · Фильтр</span>
+          <h3>Длинные предложения и защита кода</h3>
+          <p>Алгоритм пропускает короткие заголовки, меню, поля ввода и код — в работу идут только предложения от 7 русских слов, где вокруг хватает контекста для догадки.</p>
+        </div>
+        <div class="engine-step glow-card">
+          <span class="eng-tag">Шаг 2 · Скоринг</span>
+          <h3>Польза + очевидность + якоря</h3>
+          <p>Каждое слово получает вес по базовой необходимости (1–5), очевидности и смысловым якорям рядом (<em>кипяток → tea</em>). Рандомайзер выбирает только из пула лучших кандидатов.</p>
+        </div>
+        <div class="engine-step glow-card">
+          <span class="eng-tag">Шаг 3 · Чистота</span>
+          <h3>Защита идиом и разбор омоформ</h3>
+          <p>Неделимые фразы вроде <em>«друг за другом»</em> защищены от буквального перевода, а омоформы вроде <em>«на дне бутылки»</em> (bottom) и <em>«на дне знаний»</em> (day) различаются по смыслу.</p>
+        </div>
+        <div class="engine-step glow-card">
+          <span class="eng-tag">Шаг 4 · Формы</span>
+          <h3>Живая грамматика и фразы</h3>
+          <p>Подставляется актуальная форма слова (<code>works / worked / working</code>, <code>faster</code>, <code>by hand</code>) или целая естественная связка (<code>in fact</code>, <code>makes sense</code>, <code>at least</code>).</p>
         </div>
       </div>
     </div>
@@ -356,9 +420,9 @@
 
       <div class="download-box">
         <div class="download-info">
-          <img src="../icons/icon48.png" alt="Skvorling" width="44" height="44" style="display:block;">
+          <img src="icons/icon48.png" alt="Skvorling" width="44" height="44" style="display:block;">
           <div>
-            <strong>Skvorling v2.2.3 для Chrome, Яндекс Браузера, Edge, Brave и Arc</strong>
+            <strong>Skvorling <span data-skvorling-version>v2.4.0</span> для Chrome, Яндекс Браузера, Edge, Brave и Arc</strong>
             <p>Полный архив расширения · 1 014+ слов · Manifest V3 · 100% локально и бесплатно</p>
           </div>
         </div>
@@ -414,6 +478,77 @@
     </div>
   </section>
 
+
+  <!-- Interactive Release Timeline (#changelog) -->
+  <section class="section reveal" id="changelog">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Живая история релизов</span>
+        <h2>Последняя версия: <span class="gradient-text" data-skvorling-version>v2.6.0</span></h2>
+        <p>Как проверить свою версию: откройте попап Skvorling (номер рядом с логотипом) или карточку в <code>chrome://extensions</code>.</p>
+        <div class="ver-check-pill" id="verStatusBadge">✓ Вы смотрите актуальную сборку v2.6.0</div>
+      </div>
+
+      <div class="cl-filters" id="clFilters">
+        <button type="button" class="pg-tab active" data-cl-filter="all">Все релизы</button>
+        <button type="button" class="pg-tab" data-cl-filter="product">✨ Продукт</button>
+        <button type="button" class="pg-tab" data-cl-filter="nlp">🧠 Язык и NLP</button>
+        <button type="button" class="pg-tab" data-cl-filter="design">🎨 Дизайн</button>
+      </div>
+
+      <div class="timeline" id="clTimeline">
+        <div class="tl-item tl-latest" data-cats="product design">
+          <div class="tl-dot pulse-dot"></div>
+          <div class="tl-card glow-card">
+            <div class="cl-head"><span class="cl-ver">v2.6.0</span><span class="cl-tag">Актуальная</span><span class="tl-cat">✨ Продукт</span></div>
+            <strong>⭐ Избранное для активной зубрёжки, новая демо-история и живой changelog</strong>
+            <p>Кнопка «☆ Учить» прямо в подсказке добавляет слово в отдельную вкладку флэш-карточек «⭐ Избранное» с синхронизацией; переписана демо-статья с живым выбором стиля подсветки прямо в тексте; убраны лишние права браузера.</p>
+          </div>
+        </div>
+        <div class="tl-item" data-cats="product nlp">
+          <div class="tl-dot"></div>
+          <div class="tl-card glow-card">
+            <div class="cl-head"><span class="cl-ver">v2.5.0</span><span class="tl-cat">☁️ Синк · 🧠 NLP</span></div>
+            <strong>Облачная синхронизация, график за 7 дней и защита имён собственных</strong>
+            <p>Бесплатная синхронизация прогресса через <code>chrome.storage.sync</code>, 0 мс нагрузки на англоязычных сайтах, пропуск имён и брендов в середине предложения, 7-дневный график активности.</p>
+          </div>
+        </div>
+        <div class="tl-item" data-cats="product design">
+          <div class="tl-dot"></div>
+          <div class="tl-card glow-card">
+            <div class="cl-head"><span class="cl-ver">v2.4.0</span><span class="tl-cat">🎨 Дизайн · ✨ Продукт</span></div>
+            <strong>Единый стиль, фикс DOM-перетасовки и единая версия</strong>
+            <p>Исправлена фрагментация текстовых узлов (<code>normalize()</code>), единый модуль <code>version.js</code> для всех экранов, 3 темы для демо и дашборда.</p>
+          </div>
+        </div>
+        <div class="tl-item" data-cats="nlp product">
+          <div class="tl-dot"></div>
+          <div class="tl-card glow-card">
+            <div class="cl-head"><span class="cl-ver">v2.3.0</span><span class="tl-cat">🧠 Язык и NLP</span></div>
+            <strong>Чистота языка, 30 контекстных фраз и 30-секундный квиз</strong>
+            <p>Защита идиом (<em>«друг за другом»</em>), разбор омоформ (<em>«на дне бутылки» → bottom</em>), перевод целых выражений (<em>in fact, makes sense, at least</em>) и мягкое закрепление в дашборде.</p>
+          </div>
+        </div>
+        <div class="tl-item" data-cats="design">
+          <div class="tl-dot"></div>
+          <div class="tl-card glow-card">
+            <div class="cl-head"><span class="cl-ver">v2.2.0</span><span class="tl-cat">🎨 Дизайн</span></div>
+            <strong>Ребрендинг в Skvorling, маскот-скворец и 3 темы оформления</strong>
+            <p>Новый бренд <code>skvorling.ru</code>, контрастные иконки-скворцы, светлая/красочная/тёмная темы с live-синхронизацией и живой 3D-лендинг.</p>
+          </div>
+        </div>
+        <div class="tl-item" data-cats="nlp product">
+          <div class="tl-dot"></div>
+          <div class="tl-card glow-card">
+            <div class="cl-head"><span class="cl-ver">v2.0 – v2.1</span><span class="tl-cat">🧠 Язык и NLP</span></div>
+            <strong>1 014+ слов, 4 тематических пакета, навигатор и скрытие изученного</strong>
+            <p>Скрытие освоенных слов по умолчанию, 4 пакета (IT, Бизнес, Литература, Медицина), навигатор <code>Alt+Shift+F</code>, рандомайзер и глагольные формы (<code>works / worked / working</code>).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Final CTA -->
   <section class="cta-banner reveal">
     <div class="container cta-inner">
@@ -422,8 +557,8 @@
         <p>Убедитесь за 30 секунд, как естественно мозг считывает английские слова в длинном русском контексте.</p>
       </div>
       <div class="cta-buttons">
-        <a href="../demo/demo.html" class="btn btn-primary btn-lg">🧪 Открыть демо-статью</a>
-        <a href="../dashboard/dashboard.html" class="btn btn-secondary btn-lg">📊 Открыть дашборд</a>
+        <a href="demo/demo.html" class="btn btn-primary btn-lg">🧪 Открыть демо-статью</a>
+        <a href="dashboard/dashboard.html" class="btn btn-secondary btn-lg">📊 Открыть дашборд</a>
       </div>
     </div>
   </section>
@@ -431,13 +566,13 @@
   <footer class="footer">
     <div class="container footer-inner">
       <a href="https://skvorling.ru" target="_blank" rel="noopener" class="brand">
-        <img src="../icons/icon48.png" alt="Skvorling" class="logo-img" width="28" height="28">
+        <img src="icons/icon48.png" alt="Skvorling" class="logo-img" width="28" height="28">
         <span class="brand-text">Skvorling</span>
       </a>
       <div class="footer-note">skvorling.ru · Мы нашли, где живёт язык · Manifest V3</div>
       <div class="footer-links">
-        <a href="../demo/demo.html">Демо</a>
-        <a href="../dashboard/dashboard.html">Дашборд</a>
+        <a href="demo/demo.html">Демо</a>
+        <a href="dashboard/dashboard.html">Дашборд</a>
         <a href="#top">Наверх ↑</a>
       </div>
     </div>
@@ -446,10 +581,11 @@
   <!-- Interactive Floating Tooltip -->
   <div id="lpTooltip" class="lp-tooltip" role="tooltip" hidden></div>
 
-  <script src="../src/dictionary.js"></script>
-  <script src="../src/packs.js"></script>
-  <script src="../src/nlp.js"></script>
-  <script src="../src/storage.js"></script>
+  <script src="src/version.js"></script>
+  <script src="src/dictionary.js"></script>
+  <script src="src/packs.js"></script>
+  <script src="src/nlp.js"></script>
+  <script src="src/storage.js"></script>
   <script src="landing.js"></script>
 </body>
 </html>
