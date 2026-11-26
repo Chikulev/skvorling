@@ -1,5 +1,5 @@
-// Skvorling v2.7 Expanded Core Russian -> English Dictionary
-// 894 verified base entries (CEFR A1-C1).
+// Skvorling v2.8 Expanded Core Russian -> English Dictionary
+// 1174 verified base entries (CEFR A1-C1).
 (function (root) {
   'use strict';
   const KONTEXT_DICTIONARY = [
@@ -17678,6 +17678,4217 @@
       "аспект*"
     ],
     "enPlural": "aspects"
+  },
+  {
+    "id": "concept",
+    "en": "concept",
+    "ipa": "",
+    "ru": "концепция",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "концепц*"
+    ],
+    "enPlural": "concepts"
+  },
+  {
+    "id": "theory",
+    "en": "theory",
+    "ipa": "",
+    "ru": "теория",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "теор*"
+    ],
+    "enPlural": "theories"
+  },
+  {
+    "id": "practice_use",
+    "en": "practice",
+    "ipa": "",
+    "ru": "применение",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "применен*"
+    ]
+  },
+  {
+    "id": "category",
+    "en": "category",
+    "ipa": "",
+    "ru": "категория",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "категор*"
+    ],
+    "enPlural": "categories"
+  },
+  {
+    "id": "criterion",
+    "en": "criterion",
+    "ipa": "",
+    "ru": "критерий",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "критер*"
+    ],
+    "enPlural": "criteria"
+  },
+  {
+    "id": "factor",
+    "en": "factor",
+    "ipa": "",
+    "ru": "фактор",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "фактор*"
+    ],
+    "enPlural": "factors"
+  },
+  {
+    "id": "element",
+    "en": "element",
+    "ipa": "",
+    "ru": "элемент",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "элемент*"
+    ],
+    "enPlural": "elements"
+  },
+  {
+    "id": "aspect",
+    "en": "aspect",
+    "ipa": "",
+    "ru": "грань",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "грань",
+      "грани",
+      "граней"
+    ],
+    "enPlural": "aspects"
+  },
+  {
+    "id": "basis",
+    "en": "basis",
+    "ipa": "",
+    "ru": "основа",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "основ*"
+    ],
+    "enPlural": "bases"
+  },
+  {
+    "id": "essence",
+    "en": "essence",
+    "ipa": "",
+    "ru": "суть",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "суть",
+      "сути",
+      "сутью",
+      "сущност*"
+    ]
+  },
+  {
+    "id": "phenomenon",
+    "en": "phenomenon",
+    "ipa": "",
+    "ru": "явление",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "явлен*"
+    ],
+    "enPlural": "phenomena"
+  },
+  {
+    "id": "trend",
+    "en": "trend",
+    "ipa": "",
+    "ru": "тренд",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "тренд*",
+      "тенденц*"
+    ],
+    "enPlural": "trends"
+  },
+  {
+    "id": "shift",
+    "en": "shift",
+    "ipa": "",
+    "ru": "сдвиг",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "сдвиг*",
+      "смен*"
+    ],
+    "enPlural": "shifts"
+  },
+  {
+    "id": "transition",
+    "en": "transition",
+    "ipa": "",
+    "ru": "переход",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "переход*"
+    ],
+    "enPlural": "transitions"
+  },
+  {
+    "id": "progress_step",
+    "en": "progress",
+    "ipa": "",
+    "ru": "продвижение",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "продвижен*"
+    ],
+    "enPlural": "advances"
+  },
+  {
+    "id": "breakthrough",
+    "en": "breakthrough",
+    "ipa": "",
+    "ru": "прорыв",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "прорыв*"
+    ],
+    "enPlural": "breakthroughs"
+  },
+  {
+    "id": "innovation",
+    "en": "innovation",
+    "ipa": "",
+    "ru": "инновация",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "инновац*"
+    ],
+    "enPlural": "innovations"
+  },
+  {
+    "id": "invention",
+    "en": "invention",
+    "ipa": "",
+    "ru": "изобретение",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "изобретен*"
+    ],
+    "enPlural": "inventions"
+  },
+  {
+    "id": "experiment",
+    "en": "experiment",
+    "ipa": "",
+    "ru": "эксперимент",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "эксперимент*"
+    ],
+    "enPlural": "experiments"
+  },
+  {
+    "id": "observation",
+    "en": "observation",
+    "ipa": "",
+    "ru": "замечание",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "замечан*"
+    ],
+    "enPlural": "observations"
+  },
+  {
+    "id": "comparison",
+    "en": "comparison",
+    "ipa": "",
+    "ru": "сравнение",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "сравнен*"
+    ],
+    "enPlural": "comparisons"
+  },
+  {
+    "id": "combination",
+    "en": "combination",
+    "ipa": "",
+    "ru": "сочетание",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "сочетан*",
+      "комбинац*"
+    ],
+    "enPlural": "combinations"
+  },
+  {
+    "id": "connection_link",
+    "en": "connection",
+    "ipa": "",
+    "ru": "взаимосвязь",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "взаимосвяз*"
+    ],
+    "enPlural": "links"
+  },
+  {
+    "id": "interaction",
+    "en": "interaction",
+    "ipa": "",
+    "ru": "взаимодействие",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "взаимодейств*"
+    ],
+    "enPlural": "interactions"
+  },
+  {
+    "id": "cooperation",
+    "en": "cooperation",
+    "ipa": "",
+    "ru": "сотрудничество",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "сотрудничеств*"
+    ]
+  },
+  {
+    "id": "partnership",
+    "en": "partnership",
+    "ipa": "",
+    "ru": "партнёрство",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "партнёрств*",
+      "партнерств*"
+    ],
+    "enPlural": "partnerships"
+  },
+  {
+    "id": "leadership",
+    "en": "leadership",
+    "ipa": "",
+    "ru": "лидерство",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "лидерств*"
+    ]
+  },
+  {
+    "id": "management",
+    "en": "management",
+    "ipa": "",
+    "ru": "менеджмент",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "менеджмент*",
+      "управлен*"
+    ]
+  },
+  {
+    "id": "organization",
+    "en": "organization",
+    "ipa": "",
+    "ru": "организация",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "организац*"
+    ],
+    "enPlural": "organizations"
+  },
+  {
+    "id": "department",
+    "en": "department",
+    "ipa": "",
+    "ru": "отдел",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "отдел*",
+      "департамент*"
+    ],
+    "enPlural": "departments"
+  },
+  {
+    "id": "branch",
+    "en": "branch",
+    "ipa": "",
+    "ru": "филиал",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "филиал*",
+      "отрасл*"
+    ],
+    "enPlural": "branches"
+  },
+  {
+    "id": "industry",
+    "en": "industry",
+    "ipa": "",
+    "ru": "индустрия",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "индустр*",
+      "промышленност*"
+    ],
+    "enPlural": "industries"
+  },
+  {
+    "id": "production",
+    "en": "production",
+    "ipa": "",
+    "ru": "производство",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "производств*"
+    ]
+  },
+  {
+    "id": "manufacturing",
+    "en": "manufacturing",
+    "ipa": "",
+    "ru": "изготовление",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "изготовлен*"
+    ]
+  },
+  {
+    "id": "material",
+    "en": "material",
+    "ipa": "",
+    "ru": "материал",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "материал*"
+    ],
+    "enPlural": "materials"
+  },
+  {
+    "id": "resource",
+    "en": "resource",
+    "ipa": "",
+    "ru": "ресурс",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "ресурс*"
+    ],
+    "enPlural": "resources"
+  },
+  {
+    "id": "equipment",
+    "en": "equipment",
+    "ipa": "",
+    "ru": "оборудование",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "оборудован*"
+    ]
+  },
+  {
+    "id": "mechanism",
+    "en": "mechanism",
+    "ipa": "",
+    "ru": "устройство",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "приспособлен*"
+    ],
+    "enPlural": "mechanisms"
+  },
+  {
+    "id": "capacity",
+    "en": "capacity",
+    "ipa": "",
+    "ru": "ёмкость",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "ёмкост*",
+      "емкост*",
+      "мощност*"
+    ],
+    "enPlural": "capacities"
+  },
+  {
+    "id": "performance",
+    "en": "performance",
+    "ipa": "",
+    "ru": "быстродействие",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "быстродейств*"
+    ]
+  },
+  {
+    "id": "reliability",
+    "en": "reliability",
+    "ipa": "",
+    "ru": "надёжность",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "надёжност*",
+      "надежност*"
+    ]
+  },
+  {
+    "id": "accuracy",
+    "en": "accuracy",
+    "ipa": "",
+    "ru": "аккуратность",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "аккуратност*"
+    ]
+  },
+  {
+    "id": "stability",
+    "en": "stability",
+    "ipa": "",
+    "ru": "стабильность",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "стабильност*"
+    ]
+  },
+  {
+    "id": "durability",
+    "en": "durability",
+    "ipa": "",
+    "ru": "прочность",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "прочност*",
+      "долговечност*"
+    ]
+  },
+  {
+    "id": "simplicity",
+    "en": "simplicity",
+    "ipa": "",
+    "ru": "простота",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "простот*"
+    ]
+  },
+  {
+    "id": "clarity",
+    "en": "clarity",
+    "ipa": "",
+    "ru": "ясность",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "ясност*",
+      "чёткост*",
+      "четкост*"
+    ]
+  },
+  {
+    "id": "convenience",
+    "en": "convenience",
+    "ipa": "",
+    "ru": "удобство",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "удобств*"
+    ]
+  },
+  {
+    "id": "comfort",
+    "en": "comfort",
+    "ipa": "",
+    "ru": "комфорт",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "комфорт*",
+      "уют*"
+    ]
+  },
+  {
+    "id": "atmosphere",
+    "en": "atmosphere",
+    "ipa": "",
+    "ru": "атмосфера",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "атмосфер*"
+    ]
+  },
+  {
+    "id": "impression_view",
+    "en": "impression",
+    "ipa": "",
+    "ru": "взгляд",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "взгляд*"
+    ],
+    "enPlural": "views"
+  },
+  {
+    "id": "perspective",
+    "en": "perspective",
+    "ipa": "",
+    "ru": "перспектива",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "перспектив*"
+    ],
+    "enPlural": "perspectives"
+  },
+  {
+    "id": "horizon_scope",
+    "en": "horizon",
+    "ipa": "",
+    "ru": "кругозор",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "кругозор*"
+    ],
+    "enPlural": "scopes"
+  },
+  {
+    "id": "background",
+    "en": "background",
+    "ipa": "",
+    "ru": "бэкграунд",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "предыстор*",
+      "фон",
+      "фона",
+      "фоне",
+      "фоном"
+    ]
+  },
+  {
+    "id": "framework_base",
+    "en": "framework",
+    "ipa": "",
+    "ru": "каркас",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "фундамент*"
+    ],
+    "enPlural": "bases"
+  },
+  {
+    "id": "format",
+    "en": "format",
+    "ipa": "",
+    "ru": "формат",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "формат*"
+    ],
+    "enPlural": "formats"
+  },
+  {
+    "id": "style",
+    "en": "style",
+    "ipa": "",
+    "ru": "стиль",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "стил*"
+    ],
+    "enPlural": "styles"
+  },
+  {
+    "id": "design",
+    "en": "design",
+    "ipa": "",
+    "ru": "дизайн",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "дизайн*",
+      "оформлен*"
+    ],
+    "enPlural": "designs"
+  },
+  {
+    "id": "layout",
+    "en": "layout",
+    "ipa": "",
+    "ru": "вёрстка",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "вёрстк*",
+      "верстк*",
+      "макет*"
+    ],
+    "enPlural": "layouts"
+  },
+  {
+    "id": "palette",
+    "en": "palette",
+    "ipa": "",
+    "ru": "палитра",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "палитр*"
+    ],
+    "enPlural": "palettes"
+  },
+  {
+    "id": "contrast",
+    "en": "contrast",
+    "ipa": "",
+    "ru": "контраст",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "контраст*"
+    ],
+    "enPlural": "contrasts"
+  },
+  {
+    "id": "accent",
+    "en": "accent",
+    "ipa": "",
+    "ru": "акцент",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "акцент*"
+    ],
+    "enPlural": "accents"
+  },
+  {
+    "id": "tone",
+    "en": "tone",
+    "ipa": "",
+    "ru": "тон",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "оттенок",
+      "оттенка",
+      "оттенки",
+      "интонац*"
+    ],
+    "enPlural": "tones"
+  },
+  {
+    "id": "rhythm",
+    "en": "rhythm",
+    "ipa": "",
+    "ru": "ритм",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "ритм*",
+      "темп*"
+    ],
+    "enPlural": "rhythms"
+  },
+  {
+    "id": "motion",
+    "en": "motion",
+    "ipa": "",
+    "ru": "перемещение",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "перемещен*"
+    ]
+  },
+  {
+    "id": "reaction",
+    "en": "reaction",
+    "ipa": "",
+    "ru": "реакция",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "реакц*",
+      "отклик*"
+    ],
+    "enPlural": "reactions"
+  },
+  {
+    "id": "response",
+    "en": "response",
+    "ipa": "",
+    "ru": "отклик",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "реагирован*"
+    ],
+    "enPlural": "responses"
+  },
+  {
+    "id": "impact_effect",
+    "en": "impact",
+    "ipa": "",
+    "ru": "отдача",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "отдач*"
+    ],
+    "enPlural": "effects"
+  },
+  {
+    "id": "outcome",
+    "en": "outcome",
+    "ipa": "",
+    "ru": "исход",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "исход*",
+      "итог*"
+    ],
+    "enPlural": "outcomes"
+  },
+  {
+    "id": "achievement",
+    "en": "achievement",
+    "ipa": "",
+    "ru": "достижение",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "достижен*"
+    ],
+    "enPlural": "achievements"
+  },
+  {
+    "id": "milestone",
+    "en": "milestone",
+    "ipa": "",
+    "ru": "веха",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "рубеж*"
+    ],
+    "enPlural": "milestones"
+  },
+  {
+    "id": "obstacle",
+    "en": "obstacle",
+    "ipa": "",
+    "ru": "препятствие",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "препятств*",
+      "преград*"
+    ],
+    "enPlural": "obstacles"
+  },
+  {
+    "id": "difficulty",
+    "en": "difficulty",
+    "ipa": "",
+    "ru": "трудность",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "трудност*"
+    ],
+    "enPlural": "difficulties"
+  },
+  {
+    "id": "conflict",
+    "en": "conflict",
+    "ipa": "",
+    "ru": "конфликт",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "конфликт*"
+    ],
+    "enPlural": "conflicts"
+  },
+  {
+    "id": "crisis",
+    "en": "crisis",
+    "ipa": "",
+    "ru": "кризис",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "кризис*"
+    ],
+    "enPlural": "crises"
+  },
+  {
+    "id": "emergency",
+    "en": "emergency",
+    "ipa": "",
+    "ru": "экстренный случай",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "чрезвычайн*"
+    ],
+    "enPlural": "emergencies"
+  },
+  {
+    "id": "warning",
+    "en": "warning",
+    "ipa": "",
+    "ru": "предупреждение",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "предупрежден*"
+    ],
+    "enPlural": "warnings"
+  },
+  {
+    "id": "reminder",
+    "en": "reminder",
+    "ipa": "",
+    "ru": "напоминание",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "напоминан*"
+    ],
+    "enPlural": "reminders"
+  },
+  {
+    "id": "notification",
+    "en": "notification",
+    "ipa": "",
+    "ru": "уведомление",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "уведомлен*"
+    ],
+    "enPlural": "notifications"
+  },
+  {
+    "id": "instruction_tip",
+    "en": "instruction",
+    "ipa": "",
+    "ru": "подсказка",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "подсказк*"
+    ],
+    "enPlural": "tips"
+  },
+  {
+    "id": "recommendation",
+    "en": "recommendation",
+    "ipa": "",
+    "ru": "рекомендация",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "рекомендац*"
+    ],
+    "enPlural": "recommendations"
+  },
+  {
+    "id": "proposal",
+    "en": "proposal",
+    "ipa": "",
+    "ru": "инициатива",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "инициатив*"
+    ],
+    "enPlural": "proposals"
+  },
+  {
+    "id": "approval",
+    "en": "approval",
+    "ipa": "",
+    "ru": "одобрение",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "одобрен*",
+      "согласован*"
+    ]
+  },
+  {
+    "id": "permission",
+    "en": "permission",
+    "ipa": "",
+    "ru": "разрешение",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "разрешен*"
+    ],
+    "enPlural": "permissions"
+  },
+  {
+    "id": "restriction",
+    "en": "restriction",
+    "ipa": "",
+    "ru": "запрет",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "запрет*"
+    ],
+    "enPlural": "restrictions"
+  },
+  {
+    "id": "exception",
+    "en": "exception",
+    "ipa": "",
+    "ru": "исключение",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "исключен*"
+    ],
+    "enPlural": "exceptions"
+  },
+  {
+    "id": "reference",
+    "en": "reference",
+    "ipa": "",
+    "ru": "упоминание",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "упоминан*",
+      "справк*"
+    ],
+    "enPlural": "references"
+  },
+  {
+    "id": "quote",
+    "en": "quote",
+    "ipa": "",
+    "ru": "цитата",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "цитат*"
+    ],
+    "enPlural": "quotes"
+  },
+  {
+    "id": "summary",
+    "en": "summary",
+    "ipa": "",
+    "ru": "резюме",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "сводк*",
+      "конспект*"
+    ],
+    "enPlural": "summaries"
+  },
+  {
+    "id": "overview",
+    "en": "overview",
+    "ipa": "",
+    "ru": "обзор",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "дайджест*"
+    ],
+    "enPlural": "overviews"
+  },
+  {
+    "id": "section",
+    "en": "section",
+    "ipa": "",
+    "ru": "раздел",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "раздел*",
+      "секц*"
+    ],
+    "enPlural": "sections"
+  },
+  {
+    "id": "paragraph",
+    "en": "paragraph",
+    "ipa": "",
+    "ru": "абзац",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "абзац*",
+      "параграф*"
+    ],
+    "enPlural": "paragraphs"
+  },
+  {
+    "id": "headline",
+    "en": "headline",
+    "ipa": "",
+    "ru": "заголовок",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "заголовок",
+      "заголовка",
+      "заголовки",
+      "заголовков"
+    ],
+    "enPlural": "headlines"
+  },
+  {
+    "id": "caption",
+    "en": "caption",
+    "ipa": "",
+    "ru": "подпись",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "подпис*"
+    ],
+    "enPlural": "captions"
+  },
+  {
+    "id": "label",
+    "en": "label",
+    "ipa": "",
+    "ru": "метка",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "метк*",
+      "ярлык*",
+      "бирк*"
+    ],
+    "enPlural": "labels"
+  },
+  {
+    "id": "tag",
+    "en": "tag",
+    "ipa": "",
+    "ru": "тег",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "тег*",
+      "тэг*"
+    ],
+    "enPlural": "tags"
+  },
+  {
+    "id": "category_item",
+    "en": "category",
+    "ipa": "",
+    "ru": "пункт",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "пункт*",
+      "позиц*"
+    ],
+    "enPlural": "items"
+  },
+  {
+    "id": "option",
+    "en": "option",
+    "ipa": "",
+    "ru": "вариант",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "вариант*",
+      "опц*"
+    ],
+    "enPlural": "options"
+  },
+  {
+    "id": "alternative",
+    "en": "alternative",
+    "ipa": "",
+    "ru": "альтернатива",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "альтернатив*"
+    ],
+    "enPlural": "alternatives"
+  },
+  {
+    "id": "preference",
+    "en": "preference",
+    "ipa": "",
+    "ru": "предпочтение",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "предпочтен*"
+    ],
+    "enPlural": "preferences"
+  },
+  {
+    "id": "selection",
+    "en": "selection",
+    "ipa": "",
+    "ru": "подборка",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "подборк*",
+      "отбор*"
+    ],
+    "enPlural": "selections"
+  },
+  {
+    "id": "collection",
+    "en": "collection",
+    "ipa": "",
+    "ru": "коллекция",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "коллекц*",
+      "набор*"
+    ],
+    "enPlural": "collections"
+  },
+  {
+    "id": "series",
+    "en": "series",
+    "ipa": "",
+    "ru": "серия",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "сери*"
+    ],
+    "enPlural": "series"
+  },
+  {
+    "id": "sequence",
+    "en": "sequence",
+    "ipa": "",
+    "ru": "очерёдность",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "очерёдност*",
+      "очередност*"
+    ],
+    "enPlural": "sequences"
+  },
+  {
+    "id": "cycle",
+    "en": "cycle",
+    "ipa": "",
+    "ru": "цикл",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "цикл*"
+    ],
+    "enPlural": "cycles"
+  },
+  {
+    "id": "phase",
+    "en": "phase",
+    "ipa": "",
+    "ru": "фаза",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "фаз*"
+    ],
+    "enPlural": "phases"
+  },
+  {
+    "id": "interval",
+    "en": "interval",
+    "ipa": "",
+    "ru": "интервал",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "интервал*",
+      "промежуток",
+      "промежутка"
+    ],
+    "enPlural": "intervals"
+  },
+  {
+    "id": "pause",
+    "en": "pause",
+    "ipa": "",
+    "ru": "пауза",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "пауз*",
+      "перерыв*"
+    ],
+    "enPlural": "pauses"
+  },
+  {
+    "id": "delay",
+    "en": "delay",
+    "ipa": "",
+    "ru": "промедление",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "промедлен*",
+      "опоздан*"
+    ],
+    "enPlural": "delays"
+  },
+  {
+    "id": "duration",
+    "en": "duration",
+    "ipa": "",
+    "ru": "длительность",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "длительност*",
+      "продолжительност*"
+    ]
+  },
+  {
+    "id": "frequency_rate",
+    "en": "frequency",
+    "ipa": "",
+    "ru": "периодичность",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "периодичност*"
+    ],
+    "enPlural": "rates"
+  },
+  {
+    "id": "pace",
+    "en": "pace",
+    "ipa": "",
+    "ru": "скорость",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "интенсивност*"
+    ]
+  },
+  {
+    "id": "volume_amt",
+    "en": "volume",
+    "ipa": "",
+    "ru": "размах",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "размах*",
+      "охват*"
+    ]
+  },
+  {
+    "id": "range",
+    "en": "range",
+    "ipa": "",
+    "ru": "диапазон",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "диапазон*",
+      "спектр*"
+    ],
+    "enPlural": "ranges"
+  },
+  {
+    "id": "limit",
+    "en": "limit",
+    "ipa": "",
+    "ru": "лимит",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "лимит*",
+      "предел*"
+    ],
+    "enPlural": "limits"
+  },
+  {
+    "id": "minimum",
+    "en": "minimum",
+    "ipa": "",
+    "ru": "минимум",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "минимум*"
+    ]
+  },
+  {
+    "id": "maximum",
+    "en": "maximum",
+    "ipa": "",
+    "ru": "максимум",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "максимум*"
+    ]
+  },
+  {
+    "id": "proportion",
+    "en": "proportion",
+    "ipa": "",
+    "ru": "пропорция",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "пропорц*",
+      "соотношен*"
+    ],
+    "enPlural": "proportions"
+  },
+  {
+    "id": "ratio",
+    "en": "ratio",
+    "ipa": "",
+    "ru": "коэффициент",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "коэффициент*"
+    ],
+    "enPlural": "ratios"
+  },
+  {
+    "id": "indicator",
+    "en": "indicator",
+    "ipa": "",
+    "ru": "индикатор",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "индикатор*"
+    ],
+    "enPlural": "indicators"
+  },
+  {
+    "id": "statistics",
+    "en": "statistics",
+    "ipa": "",
+    "ru": "статистика",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "статистик*"
+    ]
+  },
+  {
+    "id": "trend_chart",
+    "en": "trend",
+    "ipa": "",
+    "ru": "кривая",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "крив*"
+    ],
+    "enPlural": "curves"
+  },
+  {
+    "id": "survey",
+    "en": "survey",
+    "ipa": "",
+    "ru": "опрос",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "опрос*",
+      "анкет*"
+    ],
+    "enPlural": "surveys"
+  },
+  {
+    "id": "feedback_rating",
+    "en": "feedback",
+    "ipa": "",
+    "ru": "балл",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "балл*"
+    ],
+    "enPlural": "scores"
+  },
+  {
+    "id": "award",
+    "en": "award",
+    "ipa": "",
+    "ru": "премия",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "преми*"
+    ],
+    "enPlural": "awards"
+  },
+  {
+    "id": "reputation",
+    "en": "reputation",
+    "ipa": "",
+    "ru": "репутация",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "репутац*"
+    ]
+  },
+  {
+    "id": "authority",
+    "en": "authority",
+    "ipa": "",
+    "ru": "авторитет",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "авторитет*"
+    ]
+  },
+  {
+    "id": "influence",
+    "en": "influence",
+    "ipa": "",
+    "ru": "воздействие",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "авторитетност*"
+    ]
+  },
+  {
+    "id": "motivation",
+    "en": "motivation",
+    "ipa": "",
+    "ru": "мотивация",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "мотивац*"
+    ]
+  },
+  {
+    "id": "discipline",
+    "en": "discipline",
+    "ipa": "",
+    "ru": "дисциплина",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "дисциплин*"
+    ]
+  },
+  {
+    "id": "patience",
+    "en": "patience",
+    "ipa": "",
+    "ru": "терпение",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "терпен*"
+    ]
+  },
+  {
+    "id": "persistence",
+    "en": "persistence",
+    "ipa": "",
+    "ru": "упорство",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "упорств*",
+      "настойчивост*"
+    ]
+  },
+  {
+    "id": "creativity",
+    "en": "creativity",
+    "ipa": "",
+    "ru": "креативность",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "креативност*",
+      "творчеств*"
+    ]
+  },
+  {
+    "id": "imagination",
+    "en": "imagination",
+    "ipa": "",
+    "ru": "воображение",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "воображен*",
+      "фантаз*"
+    ]
+  },
+  {
+    "id": "logic",
+    "en": "logic",
+    "ipa": "",
+    "ru": "логика",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "логик*"
+    ]
+  },
+  {
+    "id": "intuition",
+    "en": "intuition",
+    "ipa": "",
+    "ru": "интуиция",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "интуиц*"
+    ]
+  },
+  {
+    "id": "wisdom",
+    "en": "wisdom",
+    "ipa": "",
+    "ru": "мудрость",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "мудрост*"
+    ]
+  },
+  {
+    "id": "talent",
+    "en": "talent",
+    "ipa": "",
+    "ru": "талант",
+    "pos": "n",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "талант*"
+    ],
+    "enPlural": "talents"
+  },
+  {
+    "id": "potential",
+    "en": "potential",
+    "ipa": "",
+    "ru": "потенциал",
+    "pos": "n",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "потенциал*"
+    ]
+  },
+  {
+    "id": "ambition",
+    "en": "ambition",
+    "ipa": "",
+    "ru": "амбиция",
+    "pos": "n",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "амбиц*"
+    ],
+    "enPlural": "ambitions"
+  },
+  {
+    "id": "become",
+    "en": "become",
+    "ipa": "",
+    "ru": "становиться",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "становит*",
+      "стать",
+      "стал",
+      "стала",
+      "стали"
+    ],
+    "en3s": "becomes",
+    "enPast": "became",
+    "enIng": "becoming",
+    "participleForms": [
+      "становящ*"
+    ]
+  },
+  {
+    "id": "remain",
+    "en": "remain",
+    "ipa": "",
+    "ru": "оставаться",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "оставать*",
+      "остаёт*",
+      "остает*",
+      "остал*"
+    ],
+    "en3s": "remains",
+    "enPast": "remained",
+    "enIng": "remaining",
+    "participleForms": [
+      "остающ*"
+    ]
+  },
+  {
+    "id": "appear",
+    "en": "appear",
+    "ipa": "",
+    "ru": "появляться",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "появля*",
+      "появи*"
+    ],
+    "en3s": "appears",
+    "enPast": "appeared",
+    "enIng": "appearing",
+    "participleForms": [
+      "появляющ*"
+    ]
+  },
+  {
+    "id": "disappear",
+    "en": "disappear",
+    "ipa": "",
+    "ru": "исчезать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "исчеза*",
+      "исчез*"
+    ],
+    "en3s": "disappears",
+    "enPast": "disappeared",
+    "enIng": "disappearing",
+    "participleForms": [
+      "исчезающ*"
+    ]
+  },
+  {
+    "id": "exist",
+    "en": "exist",
+    "ipa": "",
+    "ru": "существовать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "существу*",
+      "существова*"
+    ],
+    "en3s": "exists",
+    "enPast": "existed",
+    "enIng": "existing",
+    "participleForms": [
+      "существующ*"
+    ]
+  },
+  {
+    "id": "happen",
+    "en": "happen",
+    "ipa": "",
+    "ru": "происходить",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "происходи*",
+      "произош*",
+      "случа*"
+    ],
+    "en3s": "happens",
+    "enPast": "happened",
+    "enIng": "happening",
+    "participleForms": [
+      "происходящ*"
+    ]
+  },
+  {
+    "id": "follow",
+    "en": "follow",
+    "ipa": "",
+    "ru": "следовать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "следу*",
+      "следова*",
+      "следи*"
+    ],
+    "en3s": "follows",
+    "enPast": "followed",
+    "enIng": "following",
+    "participleForms": [
+      "следующ*"
+    ]
+  },
+  {
+    "id": "lead",
+    "en": "lead",
+    "ipa": "",
+    "ru": "вести",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "ведёт",
+      "ведет",
+      "ведут",
+      "приводи*",
+      "привёл"
+    ],
+    "en3s": "leads",
+    "enPast": "led",
+    "enIng": "leading",
+    "participleForms": [
+      "ведущ*"
+    ]
+  },
+  {
+    "id": "carry",
+    "en": "carry",
+    "ipa": "",
+    "ru": "нести",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "носит*",
+      "нёс",
+      "несёт",
+      "несет"
+    ],
+    "en3s": "carries",
+    "enPast": "carried",
+    "enIng": "carrying"
+  },
+  {
+    "id": "move",
+    "en": "move",
+    "ipa": "",
+    "ru": "двигать",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "двига*",
+      "перемеща*",
+      "передвиг*"
+    ],
+    "en3s": "moves",
+    "enPast": "moved",
+    "enIng": "moving",
+    "participleForms": [
+      "движущ*"
+    ]
+  },
+  {
+    "id": "turn",
+    "en": "turn",
+    "ipa": "",
+    "ru": "поворачивать",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "поворачива*",
+      "поверну*",
+      "превраща*"
+    ],
+    "en3s": "turns",
+    "enPast": "turned",
+    "enIng": "turning"
+  },
+  {
+    "id": "push",
+    "en": "push",
+    "ipa": "",
+    "ru": "толкать",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "толка*",
+      "нажима*",
+      "нажа*"
+    ],
+    "en3s": "pushes",
+    "enPast": "pushed",
+    "enIng": "pushing"
+  },
+  {
+    "id": "pull",
+    "en": "pull",
+    "ipa": "",
+    "ru": "тянуть",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "тяну*",
+      "тянет",
+      "вытягива*"
+    ],
+    "en3s": "pulls",
+    "enPast": "pulled",
+    "enIng": "pulling"
+  },
+  {
+    "id": "hold",
+    "en": "hold",
+    "ipa": "",
+    "ru": "удерживать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "удержива*",
+      "удержа*"
+    ],
+    "en3s": "holds",
+    "enPast": "held",
+    "enIng": "holding",
+    "participleForms": [
+      "удерживающ*"
+    ]
+  },
+  {
+    "id": "drop",
+    "en": "drop",
+    "ipa": "",
+    "ru": "ронять",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "роня*",
+      "пада*",
+      "упал*"
+    ],
+    "en3s": "drops",
+    "enPast": "dropped",
+    "enIng": "dropping",
+    "participleForms": [
+      "падающ*"
+    ]
+  },
+  {
+    "id": "rise",
+    "en": "rise",
+    "ipa": "",
+    "ru": "подниматься",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "поднима*",
+      "поднял*",
+      "повыша*"
+    ],
+    "en3s": "rises",
+    "enPast": "rose",
+    "enIng": "rising",
+    "participleForms": [
+      "поднимающ*"
+    ]
+  },
+  {
+    "id": "reduce",
+    "en": "reduce",
+    "ipa": "",
+    "ru": "снижать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "снижа*",
+      "снизи*",
+      "уменьша*",
+      "сокраща*"
+    ],
+    "en3s": "reduces",
+    "enPast": "reduced",
+    "enIng": "reducing",
+    "participleForms": [
+      "снижающ*"
+    ]
+  },
+  {
+    "id": "increase_v",
+    "en": "increase",
+    "ipa": "",
+    "ru": "увеличивать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "увеличива*",
+      "увеличи*"
+    ],
+    "en3s": "increases",
+    "enPast": "increased",
+    "enIng": "increasing",
+    "participleForms": [
+      "увеличивающ*"
+    ]
+  },
+  {
+    "id": "expand",
+    "en": "expand",
+    "ipa": "",
+    "ru": "расширять",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "расширя*",
+      "расшири*"
+    ],
+    "en3s": "expands",
+    "enPast": "expanded",
+    "enIng": "expanding",
+    "participleForms": [
+      "расширяющ*"
+    ]
+  },
+  {
+    "id": "connect",
+    "en": "connect",
+    "ipa": "",
+    "ru": "подключать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "подключа*",
+      "подключи*",
+      "соединя*"
+    ],
+    "en3s": "connects",
+    "enPast": "connected",
+    "enIng": "connecting",
+    "participleForms": [
+      "подключающ*"
+    ]
+  },
+  {
+    "id": "combine",
+    "en": "combine",
+    "ipa": "",
+    "ru": "объединять",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "объединя*",
+      "объедини*"
+    ],
+    "en3s": "combines",
+    "enPast": "combined",
+    "enIng": "combining",
+    "participleForms": [
+      "объединяющ*"
+    ]
+  },
+  {
+    "id": "divide",
+    "en": "divide",
+    "ipa": "",
+    "ru": "разделять",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "разделя*",
+      "раздели*"
+    ],
+    "en3s": "divides",
+    "enPast": "divided",
+    "enIng": "dividing",
+    "participleForms": [
+      "разделяющ*"
+    ]
+  },
+  {
+    "id": "organize",
+    "en": "organize",
+    "ipa": "",
+    "ru": "организовывать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "организов*",
+      "упорядоч*"
+    ],
+    "en3s": "organizes",
+    "enPast": "organized",
+    "enIng": "organizing"
+  },
+  {
+    "id": "control_v",
+    "en": "control",
+    "ipa": "",
+    "ru": "контролировать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "контролиру*",
+      "контролирова*"
+    ],
+    "en3s": "controls",
+    "enPast": "controlled",
+    "enIng": "controlling",
+    "participleForms": [
+      "контролирующ*"
+    ]
+  },
+  {
+    "id": "analyze",
+    "en": "analyze",
+    "ipa": "",
+    "ru": "анализировать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "анализиру*",
+      "анализирова*"
+    ],
+    "en3s": "analyzes",
+    "enPast": "analyzed",
+    "enIng": "analyzing",
+    "participleForms": [
+      "анализирующ*"
+    ]
+  },
+  {
+    "id": "evaluate",
+    "en": "evaluate",
+    "ipa": "",
+    "ru": "оценивать",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "оценива*",
+      "оцени*"
+    ],
+    "en3s": "evaluates",
+    "enPast": "evaluated",
+    "enIng": "evaluating",
+    "participleForms": [
+      "оценивающ*"
+    ]
+  },
+  {
+    "id": "predict",
+    "en": "predict",
+    "ipa": "",
+    "ru": "предсказывать",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "предсказыва*",
+      "прогнозиру*"
+    ],
+    "en3s": "predicts",
+    "enPast": "predicted",
+    "enIng": "predicting"
+  },
+  {
+    "id": "prove",
+    "en": "prove",
+    "ipa": "",
+    "ru": "доказывать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "доказыва*",
+      "доказа*"
+    ],
+    "en3s": "proves",
+    "enPast": "proved",
+    "enIng": "proving"
+  },
+  {
+    "id": "doubt_v",
+    "en": "doubt",
+    "ipa": "",
+    "ru": "сомневаться",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "сомнева*"
+    ],
+    "en3s": "doubts",
+    "enPast": "doubted",
+    "enIng": "doubting"
+  },
+  {
+    "id": "trust_v",
+    "en": "trust",
+    "ipa": "",
+    "ru": "доверять",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "доверя*",
+      "довери*"
+    ],
+    "en3s": "trusts",
+    "enPast": "trusted",
+    "enIng": "trusting"
+  },
+  {
+    "id": "prefer",
+    "en": "prefer",
+    "ipa": "",
+    "ru": "предпочитать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "предпочита*",
+      "предпоч*"
+    ],
+    "en3s": "prefers",
+    "enPast": "preferred",
+    "enIng": "preferring"
+  },
+  {
+    "id": "enjoy",
+    "en": "enjoy",
+    "ipa": "",
+    "ru": "наслаждаться",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "наслажда*"
+    ],
+    "en3s": "enjoys",
+    "enPast": "enjoyed",
+    "enIng": "enjoying"
+  },
+  {
+    "id": "worry",
+    "en": "worry",
+    "ipa": "",
+    "ru": "волноваться",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "волну*",
+      "беспоко*"
+    ],
+    "en3s": "worries",
+    "enPast": "worried",
+    "enIng": "worrying"
+  },
+  {
+    "id": "laugh",
+    "en": "laugh",
+    "ipa": "",
+    "ru": "смеяться",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "смеять*",
+      "смеёт*",
+      "смеял*"
+    ],
+    "en3s": "laughs",
+    "enPast": "laughed",
+    "enIng": "laughing"
+  },
+  {
+    "id": "smile_v",
+    "en": "smile",
+    "ipa": "",
+    "ru": "улыбаться",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "улыба*",
+      "улыбну*"
+    ],
+    "en3s": "smiles",
+    "enPast": "smiling",
+    "enIng": "smiling",
+    "participleForms": [
+      "улыбающ*"
+    ]
+  },
+  {
+    "id": "discuss",
+    "en": "discuss",
+    "ipa": "",
+    "ru": "обсуждать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "обсужда*",
+      "обсуди*"
+    ],
+    "en3s": "discusses",
+    "enPast": "discussed",
+    "enIng": "discussing",
+    "participleForms": [
+      "обсуждающ*"
+    ]
+  },
+  {
+    "id": "mention",
+    "en": "mention",
+    "ipa": "",
+    "ru": "упоминать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "упомина*",
+      "упомяну*"
+    ],
+    "en3s": "mentions",
+    "enPast": "mentioned",
+    "enIng": "mentioning"
+  },
+  {
+    "id": "emphasize",
+    "en": "emphasize",
+    "ipa": "",
+    "ru": "подчёркивать",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "подчёркива*",
+      "подчеркива*",
+      "подчеркну*"
+    ],
+    "en3s": "emphasizes",
+    "enPast": "emphasized",
+    "enIng": "emphasizing"
+  },
+  {
+    "id": "warn",
+    "en": "warn",
+    "ipa": "",
+    "ru": "предупреждать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "предупрежда*",
+      "предупреди*"
+    ],
+    "en3s": "warns",
+    "enPast": "warned",
+    "enIng": "warning"
+  },
+  {
+    "id": "remind",
+    "en": "remind",
+    "ipa": "",
+    "ru": "напоминать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "напомина*",
+      "напомни*"
+    ],
+    "en3s": "reminds",
+    "enPast": "reminded",
+    "enIng": "reminding",
+    "participleForms": [
+      "напоминающ*"
+    ]
+  },
+  {
+    "id": "recommend",
+    "en": "recommend",
+    "ipa": "",
+    "ru": "рекомендовать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "рекоменду*",
+      "рекомендова*"
+    ],
+    "en3s": "recommends",
+    "enPast": "recommended",
+    "enIng": "recommending"
+  },
+  {
+    "id": "apply",
+    "en": "apply",
+    "ipa": "",
+    "ru": "применять",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "применя*",
+      "примени*"
+    ],
+    "en3s": "applies",
+    "enPast": "applied",
+    "enIng": "applying",
+    "participleForms": [
+      "применяющ*"
+    ]
+  },
+  {
+    "id": "adjust",
+    "en": "adjust",
+    "ipa": "",
+    "ru": "настраивать",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "настраива*",
+      "настрои*",
+      "подстраива*"
+    ],
+    "en3s": "adjusts",
+    "enPast": "adjusted",
+    "enIng": "adjusting"
+  },
+  {
+    "id": "adapt",
+    "en": "adapt",
+    "ipa": "",
+    "ru": "адаптировать",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "адаптиру*",
+      "адаптирова*"
+    ],
+    "en3s": "adapts",
+    "enPast": "adapted",
+    "enIng": "adapting"
+  },
+  {
+    "id": "optimize",
+    "en": "optimize",
+    "ipa": "",
+    "ru": "оптимизировать",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "оптимизиру*",
+      "оптимизирова*"
+    ],
+    "en3s": "optimizes",
+    "enPast": "optimized",
+    "enIng": "optimizing"
+  },
+  {
+    "id": "automate",
+    "en": "automate",
+    "ipa": "",
+    "ru": "автоматизировать",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "автоматизиру*"
+    ],
+    "en3s": "automates",
+    "enPast": "automated",
+    "enIng": "automating"
+  },
+  {
+    "id": "download",
+    "en": "download",
+    "ipa": "",
+    "ru": "скачивать",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "скачива*",
+      "скача*",
+      "загружа*",
+      "загрузи*"
+    ],
+    "en3s": "downloads",
+    "enPast": "downloaded",
+    "enIng": "downloading"
+  },
+  {
+    "id": "install",
+    "en": "install",
+    "ipa": "",
+    "ru": "устанавливать",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "устанавлива*",
+      "установи*"
+    ],
+    "en3s": "installs",
+    "enPast": "installed",
+    "enIng": "installing"
+  },
+  {
+    "id": "update_v",
+    "en": "update",
+    "ipa": "",
+    "ru": "обновлять",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "обновля*",
+      "обнови*"
+    ],
+    "en3s": "updates",
+    "enPast": "updated",
+    "enIng": "updating",
+    "participleForms": [
+      "обновляющ*"
+    ]
+  },
+  {
+    "id": "publish",
+    "en": "publish",
+    "ipa": "",
+    "ru": "публиковать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "публику*",
+      "опубликова*"
+    ],
+    "en3s": "publishes",
+    "enPast": "published",
+    "enIng": "publishing"
+  },
+  {
+    "id": "print",
+    "en": "print",
+    "ipa": "",
+    "ru": "печатать",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "печата*",
+      "распечата*"
+    ],
+    "en3s": "prints",
+    "enPast": "printed",
+    "enIng": "printing",
+    "participleForms": [
+      "печатающ*"
+    ]
+  },
+  {
+    "id": "record_v",
+    "en": "record",
+    "ipa": "",
+    "ru": "записывать",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "записыва*",
+      "записа*"
+    ],
+    "en3s": "records",
+    "enPast": "recorded",
+    "enIng": "recording"
+  },
+  {
+    "id": "copy_v",
+    "en": "copy",
+    "ipa": "",
+    "ru": "копировать",
+    "pos": "v",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "копиру*",
+      "скопирова*"
+    ],
+    "en3s": "copies",
+    "enPast": "copied",
+    "enIng": "copying"
+  },
+  {
+    "id": "deliver",
+    "en": "deliver",
+    "ipa": "",
+    "ru": "доставлять",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "доставля*",
+      "достави*"
+    ],
+    "en3s": "delivers",
+    "enPast": "delivered",
+    "enIng": "delivering"
+  },
+  {
+    "id": "earn",
+    "en": "earn",
+    "ipa": "",
+    "ru": "зарабатывать",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "зарабатыва*",
+      "заработа*"
+    ],
+    "en3s": "earns",
+    "enPast": "earned",
+    "enIng": "earning"
+  },
+  {
+    "id": "invest",
+    "en": "invest",
+    "ipa": "",
+    "ru": "инвестировать",
+    "pos": "v",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "инвестиру*",
+      "вкладыва*"
+    ],
+    "en3s": "invests",
+    "enPast": "invested",
+    "enIng": "investing"
+  },
+  {
+    "id": "afford",
+    "en": "afford",
+    "ipa": "",
+    "ru": "позволить себе",
+    "pos": "v",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "потянуть"
+    ],
+    "en3s": "affords",
+    "enPast": "afforded",
+    "enIng": "affording"
+  },
+  {
+    "id": "serious",
+    "en": "serious",
+    "ipa": "",
+    "ru": "серьёзный",
+    "pos": "adj",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "серьёзн*",
+      "серьезн*"
+    ],
+    "enComp": "more serious",
+    "compForms": [
+      "серьёзнее"
+    ]
+  },
+  {
+    "id": "curious",
+    "en": "curious",
+    "ipa": "",
+    "ru": "любопытный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "любопытн*"
+    ],
+    "enComp": "more curious",
+    "compForms": [
+      "любопытнее"
+    ]
+  },
+  {
+    "id": "creative",
+    "en": "creative",
+    "ipa": "",
+    "ru": "творческий",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "творческ*",
+      "креативн*"
+    ],
+    "enComp": "more creative"
+  },
+  {
+    "id": "logical",
+    "en": "logical",
+    "ipa": "",
+    "ru": "логичный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "логичн*"
+    ],
+    "enComp": "more logical",
+    "compForms": [
+      "логичнее"
+    ]
+  },
+  {
+    "id": "practical",
+    "en": "practical",
+    "ipa": "",
+    "ru": "практичный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "практичн*",
+      "практическ*"
+    ],
+    "enComp": "more practical",
+    "compForms": [
+      "практичнее"
+    ]
+  },
+  {
+    "id": "technical",
+    "en": "technical",
+    "ipa": "",
+    "ru": "технический",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "техническ*"
+    ]
+  },
+  {
+    "id": "digital",
+    "en": "digital",
+    "ipa": "",
+    "ru": "цифровой",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "цифров*"
+    ]
+  },
+  {
+    "id": "automatic",
+    "en": "automatic",
+    "ipa": "",
+    "ru": "автоматический",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "автоматическ*"
+    ]
+  },
+  {
+    "id": "manual",
+    "en": "manual",
+    "ipa": "",
+    "ru": "ручной",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "ручн*"
+    ]
+  },
+  {
+    "id": "visual",
+    "en": "visual",
+    "ipa": "",
+    "ru": "визуальный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "визуальн*"
+    ]
+  },
+  {
+    "id": "mental",
+    "en": "mental",
+    "ipa": "",
+    "ru": "умственный",
+    "pos": "adj",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "умственн*",
+      "ментальн*"
+    ]
+  },
+  {
+    "id": "physical",
+    "en": "physical",
+    "ipa": "",
+    "ru": "физический",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "физическ*"
+    ]
+  },
+  {
+    "id": "social",
+    "en": "social",
+    "ipa": "",
+    "ru": "социальный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "социальн*"
+    ]
+  },
+  {
+    "id": "financial",
+    "en": "financial",
+    "ipa": "",
+    "ru": "финансовый",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "финансов*"
+    ]
+  },
+  {
+    "id": "economic",
+    "en": "economic",
+    "ipa": "",
+    "ru": "экономический",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "экономическ*"
+    ]
+  },
+  {
+    "id": "commercial",
+    "en": "commercial",
+    "ipa": "",
+    "ru": "коммерческий",
+    "pos": "adj",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "коммерческ*"
+    ]
+  },
+  {
+    "id": "professional",
+    "en": "professional",
+    "ipa": "",
+    "ru": "профессиональный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "профессиональн*"
+    ]
+  },
+  {
+    "id": "official",
+    "en": "official",
+    "ipa": "",
+    "ru": "официальный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "официальн*"
+    ]
+  },
+  {
+    "id": "additional",
+    "en": "additional",
+    "ipa": "",
+    "ru": "дополнительный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "дополнительн*"
+    ]
+  },
+  {
+    "id": "initial",
+    "en": "initial",
+    "ipa": "",
+    "ru": "начальный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "начальн*",
+      "исходн*",
+      "первоначальн*"
+    ]
+  },
+  {
+    "id": "final",
+    "en": "final",
+    "ipa": "",
+    "ru": "финальный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "финальн*",
+      "итогов*",
+      "конечн*"
+    ]
+  },
+  {
+    "id": "current",
+    "en": "current",
+    "ipa": "",
+    "ru": "текущий",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "текущ*",
+      "нынешн*"
+    ]
+  },
+  {
+    "id": "previous",
+    "en": "previous",
+    "ipa": "",
+    "ru": "предыдущий",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "предыдущ*"
+    ]
+  },
+  {
+    "id": "next_adj",
+    "en": "next",
+    "ipa": "",
+    "ru": "следующий",
+    "pos": "adj",
+    "level": "A1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "следующ*"
+    ]
+  },
+  {
+    "id": "recent",
+    "en": "recent",
+    "ipa": "",
+    "ru": "недавний",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "недавн*"
+    ]
+  },
+  {
+    "id": "active",
+    "en": "active",
+    "ipa": "",
+    "ru": "активный",
+    "pos": "adj",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "активн*"
+    ],
+    "enComp": "more active",
+    "compForms": [
+      "активнее"
+    ]
+  },
+  {
+    "id": "passive",
+    "en": "passive",
+    "ipa": "",
+    "ru": "пассивный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "пассивн*"
+    ]
+  },
+  {
+    "id": "positive",
+    "en": "positive",
+    "ipa": "",
+    "ru": "позитивный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "позитивн*",
+      "положительн*"
+    ],
+    "enComp": "more positive"
+  },
+  {
+    "id": "negative",
+    "en": "negative",
+    "ipa": "",
+    "ru": "негативный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "негативн*",
+      "отрицательн*"
+    ],
+    "enComp": "more negative"
+  },
+  {
+    "id": "neutral",
+    "en": "neutral",
+    "ipa": "",
+    "ru": "нейтральный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "нейтральн*"
+    ]
+  },
+  {
+    "id": "mutual",
+    "en": "mutual",
+    "ipa": "",
+    "ru": "взаимный",
+    "pos": "adj",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "взаимн*"
+    ]
+  },
+  {
+    "id": "independent",
+    "en": "independent",
+    "ipa": "",
+    "ru": "независимый",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "независим*",
+      "самостоятельн*"
+    ]
+  },
+  {
+    "id": "responsible",
+    "en": "responsible",
+    "ipa": "",
+    "ru": "ответственный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "ответственн*"
+    ]
+  },
+  {
+    "id": "experienced",
+    "en": "experienced",
+    "ipa": "",
+    "ru": "опытный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "опытн*"
+    ],
+    "enComp": "more experienced",
+    "compForms": [
+      "опытнее"
+    ]
+  },
+  {
+    "id": "familiar",
+    "en": "familiar",
+    "ipa": "",
+    "ru": "знакомый",
+    "pos": "adj",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "знаком*"
+    ],
+    "enComp": "more familiar"
+  },
+  {
+    "id": "unknown",
+    "en": "unknown",
+    "ipa": "",
+    "ru": "незнакомый",
+    "pos": "adj",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "незнаком*",
+      "неизвестн*"
+    ]
+  },
+  {
+    "id": "invisible",
+    "en": "invisible",
+    "ipa": "",
+    "ru": "невидимый",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "невидим*"
+    ]
+  },
+  {
+    "id": "visible",
+    "en": "visible",
+    "ipa": "",
+    "ru": "видимый",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "видим*",
+      "заметн*"
+    ],
+    "compForms": [
+      "заметнее"
+    ]
+  },
+  {
+    "id": "transparent",
+    "en": "transparent",
+    "ipa": "",
+    "ru": "прозрачный",
+    "pos": "adj",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "прозрачн*"
+    ]
+  },
+  {
+    "id": "solid",
+    "en": "solid",
+    "ipa": "",
+    "ru": "твёрдый",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "твёрд*",
+      "тверд*"
+    ]
+  },
+  {
+    "id": "liquid",
+    "en": "liquid",
+    "ipa": "",
+    "ru": "жидкий",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "жидк*"
+    ]
+  },
+  {
+    "id": "wooden",
+    "en": "wooden",
+    "ipa": "",
+    "ru": "деревянный",
+    "pos": "adj",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "деревянн*"
+    ]
+  },
+  {
+    "id": "metallic",
+    "en": "metallic",
+    "ipa": "",
+    "ru": "металлический",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "металлическ*"
+    ]
+  },
+  {
+    "id": "glass_adj",
+    "en": "glass",
+    "ipa": "",
+    "ru": "стеклянный",
+    "pos": "adj",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "стеклянн*"
+    ]
+  },
+  {
+    "id": "huge",
+    "en": "huge",
+    "ipa": "",
+    "ru": "огромный",
+    "pos": "adj",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "огромн*",
+      "гигантск*"
+    ]
+  },
+  {
+    "id": "tiny",
+    "en": "tiny",
+    "ipa": "",
+    "ru": "крошечный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "крошечн*",
+      "мелк*"
+    ]
+  },
+  {
+    "id": "narrow_tight",
+    "en": "narrow",
+    "ipa": "",
+    "ru": "плотный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "плотн*"
+    ],
+    "compForms": [
+      "плотнее"
+    ]
+  },
+  {
+    "id": "rare_unique",
+    "en": "rare",
+    "ipa": "",
+    "ru": "необычный",
+    "pos": "adj",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "необычн*",
+      "нестандартн*"
+    ],
+    "compForms": [
+      "необычнее"
+    ]
+  },
+  {
+    "id": "typical",
+    "en": "typical",
+    "ipa": "",
+    "ru": "типичный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "типичн*",
+      "характерн*"
+    ]
+  },
+  {
+    "id": "essential",
+    "en": "essential",
+    "ipa": "",
+    "ru": "ключевой",
+    "pos": "adj",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "ключев*",
+      "базов*"
+    ]
+  },
+  {
+    "id": "optimal",
+    "en": "optimal",
+    "ipa": "",
+    "ru": "оптимальный",
+    "pos": "adj",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "оптимальн*"
+    ]
+  },
+  {
+    "id": "universal",
+    "en": "universal",
+    "ipa": "",
+    "ru": "универсальный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "универсальн*"
+    ]
+  },
+  {
+    "id": "flexible_adapt",
+    "en": "flexible",
+    "ipa": "",
+    "ru": "адаптивный",
+    "pos": "adj",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "адаптивн*"
+    ]
+  },
+  {
+    "id": "compact",
+    "en": "compact",
+    "ipa": "",
+    "ru": "компактный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "компактн*"
+    ],
+    "compForms": [
+      "компактнее"
+    ]
+  },
+  {
+    "id": "detailed",
+    "en": "detailed",
+    "ipa": "",
+    "ru": "подробный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "подробн*",
+      "детальн*"
+    ],
+    "compForms": [
+      "подробнее"
+    ]
+  },
+  {
+    "id": "brief",
+    "en": "brief",
+    "ipa": "",
+    "ru": "краткий",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "кратк*",
+      "лаконичн*"
+    ],
+    "compForms": [
+      "кратче"
+    ]
+  },
+  {
+    "id": "urgent",
+    "en": "urgent",
+    "ipa": "",
+    "ru": "срочный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "срочн*",
+      "неотложн*"
+    ]
+  },
+  {
+    "id": "gradual_smooth",
+    "en": "gradual",
+    "ipa": "",
+    "ru": "мягкий",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "деликатн*"
+    ]
+  },
+  {
+    "id": "genuine",
+    "en": "genuine",
+    "ipa": "",
+    "ru": "подлинный",
+    "pos": "adj",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "подлинн*",
+      "искренн*"
+    ]
+  },
+  {
+    "id": "artificial",
+    "en": "artificial",
+    "ipa": "",
+    "ru": "искусственный",
+    "pos": "adj",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "искусственн*"
+    ]
+  },
+  {
+    "id": "gradually_adv",
+    "en": "gradually",
+    "ipa": "",
+    "ru": "плавно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "плавно"
+    ]
+  },
+  {
+    "id": "instantly",
+    "en": "instantly",
+    "ipa": "",
+    "ru": "мгновенно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "мгновенно",
+      "моментально"
+    ]
+  },
+  {
+    "id": "regularly",
+    "en": "regularly",
+    "ipa": "",
+    "ru": "регулярно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "регулярно"
+    ]
+  },
+  {
+    "id": "constantly",
+    "en": "constantly",
+    "ipa": "",
+    "ru": "постоянно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "постоянно"
+    ]
+  },
+  {
+    "id": "periodically",
+    "en": "periodically",
+    "ipa": "",
+    "ru": "периодически",
+    "pos": "adv",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "периодически"
+    ]
+  },
+  {
+    "id": "automatically",
+    "en": "automatically",
+    "ipa": "",
+    "ru": "автоматически",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "автоматически"
+    ]
+  },
+  {
+    "id": "manually",
+    "en": "manually",
+    "ipa": "",
+    "ru": "вручную",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "вручную"
+    ]
+  },
+  {
+    "id": "directly",
+    "en": "directly",
+    "ipa": "",
+    "ru": "напрямую",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "напрямую",
+      "непосредственно"
+    ]
+  },
+  {
+    "id": "separately",
+    "en": "separately",
+    "ipa": "",
+    "ru": "отдельно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "отдельно"
+    ]
+  },
+  {
+    "id": "completely_full",
+    "en": "completely",
+    "ipa": "",
+    "ru": "целиком",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "целиком"
+    ]
+  },
+  {
+    "id": "partially",
+    "en": "partially",
+    "ipa": "",
+    "ru": "частично",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "частично"
+    ]
+  },
+  {
+    "id": "approximately",
+    "en": "approximately",
+    "ipa": "",
+    "ru": "примерно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "примерно",
+      "приблизительно"
+    ]
+  },
+  {
+    "id": "exactly",
+    "en": "exactly",
+    "ipa": "",
+    "ru": "ровно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "ровно",
+      "в точности"
+    ]
+  },
+  {
+    "id": "especially_adv",
+    "en": "especially",
+    "ipa": "",
+    "ru": "особенно",
+    "pos": "adv",
+    "level": "A2",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "в особенности"
+    ]
+  },
+  {
+    "id": "obviously",
+    "en": "obviously",
+    "ipa": "",
+    "ru": "очевидно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "очевидно"
+    ]
+  },
+  {
+    "id": "naturally",
+    "en": "naturally",
+    "ipa": "",
+    "ru": "естественно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "естественно"
+    ]
+  },
+  {
+    "id": "surprisingly",
+    "en": "surprisingly",
+    "ipa": "",
+    "ru": "удивительно",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "удивительно"
+    ]
+  },
+  {
+    "id": "unfortunately",
+    "en": "unfortunately",
+    "ipa": "",
+    "ru": "к сожалению",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "увы"
+    ]
+  },
+  {
+    "id": "fortunately",
+    "en": "fortunately",
+    "ipa": "",
+    "ru": "к счастью",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "благополучно"
+    ]
+  },
+  {
+    "id": "meanwhile_adv",
+    "en": "meanwhile",
+    "ipa": "",
+    "ru": "попутно",
+    "pos": "adv",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "попутно",
+      "параллельно"
+    ]
+  },
+  {
+    "id": "previously",
+    "en": "previously",
+    "ipa": "",
+    "ru": "ранее",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "ранее",
+      "прежде"
+    ]
+  },
+  {
+    "id": "subsequently",
+    "en": "subsequently",
+    "ipa": "",
+    "ru": "впоследствии",
+    "pos": "adv",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "впоследствии",
+      "в дальнейшем"
+    ]
+  },
+  {
+    "id": "initially",
+    "en": "initially",
+    "ipa": "",
+    "ru": "изначально",
+    "pos": "adv",
+    "level": "B1",
+    "clarity": 3,
+    "utility": 5,
+    "forms": [
+      "изначально",
+      "сначала"
+    ]
+  },
+  {
+    "id": "eventually",
+    "en": "eventually",
+    "ipa": "",
+    "ru": "в итоге",
+    "pos": "adv",
+    "level": "B2",
+    "clarity": 3,
+    "utility": 4,
+    "forms": [
+      "наконец"
+    ]
   }
 ];
 

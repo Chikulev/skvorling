@@ -634,9 +634,12 @@
 
       if (candidates.length === 0) continue;
 
+      // High-immersion scaling: when user chooses 5-8 words/sentence (B2/C1), allow up to ~45% of sentence words!
+      const divisor = maxPerSentence >= 6 ? 2.2 : (maxPerSentence >= 4 ? 3.0 : 4.0);
+      const effectiveGap = maxPerSentence >= 6 ? Math.min(minWordGap, 1) : minWordGap;
       const densityCap = Math.min(
         maxPerSentence,
-        Math.max(1, Math.floor(ruTokens.length / 4))
+        Math.max(1, Math.floor(ruTokens.length / divisor))
       );
 
       const chosen = [];
@@ -650,7 +653,7 @@
             const dist = cand.startIdx > c.endIdx
               ? cand.startIdx - c.endIdx
               : (c.startIdx > cand.endIdx ? c.startIdx - cand.endIdx : 0);
-            return dist <= minWordGap;
+            return dist <= effectiveGap;
           });
         });
         if (remaining.length === 0) break;
