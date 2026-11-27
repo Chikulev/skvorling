@@ -1153,3 +1153,21 @@ html, body { max-width: 100%; overflow-x: clip; }
   .nav-right .btn-primary { padding: 7px 11px; font-size: 13px; }
   .container { padding: 0 16px; }
 }
+
+/* Support, Sponsors & Contact Strip (v2.9.0) */
+.support-strip {
+  padding: 28px 0;
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--border);
+}
+.support-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.support-text { max-width: 640px; }
+.support-text strong { display: block; font-size: 16px; margin-bottom: 4px; }
+.support-text p { font-size: 13.8px; color: var(--text-soft); }
+.support-links { display: flex; gap: 10px; flex-wrap: wrap; }

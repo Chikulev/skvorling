@@ -4,7 +4,7 @@
 
   const STORAGE_KEY = 'skvorling_state_v2';
   const LEGACY_STORAGE_KEY = 'kontext_state_v1';
-  const PASSIVE_MASTERY_THRESHOLD = 5;
+  const PASSIVE_MASTERY_THRESHOLD = 100;
 
   const DEFAULT_SETTINGS = {
     enabled: true,
@@ -15,6 +15,7 @@
     minWordGap: 2,
     useRandomizer: true,       // v2.0: weighted random selection within high-utility top pool
     smartGrammar: true,        // v2.0: inflect tenses, participles, plurals & bare instrumentals
+    autoMastery: false,        // v2.9 DEFAULT OFF: words are mastered via 'Знаю' or active drill; if ON, requires 100 clean exposures
     hideMasteredWords: true,   // v2.1 DEFAULT: stop showing words marked as mastered (toggle OFF for immersion % accumulation)
     usePhrases: true,          // v2.3: translate natural 2-3 word contextual phrases (in fact, makes sense, at least)
     cloudSync: true,           // v2.5: automatic cross-device sync via chrome.storage.sync
@@ -177,18 +178,24 @@
     return state.stats.daily[today];
   }
 
-  function recordExposure(state, wordId) {
+  const EXPOSURE_COOLDOWN_MS = 60 * 1000;
+
+  function recordExposure(state, wordId, force = false) {
     const day = touchDaily(state);
     const now = Date.now();
     if (!state.progress[wordId]) {
       state.progress[wordId] = { seen: 0, hovers: 0, cleanStreak: 0, status: 'learning', lastSeen: now };
     }
     const p = state.progress[wordId];
+    // Prevent F5 page-refresh spam from falsely mastering words within 60 seconds
+    if (!force && p.seen > 0 && p.lastSeen && (now - p.lastSeen) < EXPOSURE_COOLDOWN_MS) {
+      return p;
+    }
     p.seen += 1;
     p.cleanStreak = (p.cleanStreak || 0) + 1;
     p.lastSeen = now;
 
-    if (p.status === 'learning' && p.cleanStreak >= PASSIVE_MASTERY_THRESHOLD) {
+    if (p.status === 'learning' && (force || (state.settings && state.settings.autoMastery)) && p.cleanStreak >= PASSIVE_MASTERY_THRESHOLD) {
       p.status = 'mastered';
       day.mastered += 1;
     }

@@ -14,9 +14,10 @@
     'SCRIPT', 'STYLE', 'NOSCRIPT', 'IFRAME', 'OBJECT', 'EMBED',
     'CODE', 'PRE', 'KBD', 'SAMP', 'VAR', 'TEXTAREA', 'INPUT',
     'SELECT', 'OPTION', 'BUTTON', 'SVG', 'MATH', 'CANVAS',
-    'NAV', 'HEADER', 'FOOTER', 'HEAD', 'TITLE', 'META', 'LINK'
+    'NAV', 'HEADER', 'FOOTER', 'HEAD', 'TITLE', 'META', 'LINK', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6'
   ]);
 
+  const IS_DEMO_PAGE = /\/demo\/demo\.html$/i.test(window.location.pathname || '') || (document.body && document.body.dataset.skvorlingDemo === '1');
   let state = null;
   let index = null;
   let effective = null;
@@ -149,13 +150,14 @@
     };
 
     const threshold = Storage.PASSIVE_MASTERY_THRESHOLD;
+    const autoM = !!(state && state.settings && state.settings.autoMastery);
     const pct = prog.status === 'mastered'
       ? 100
-      : Math.min(100, Math.round(((prog.cleanStreak || 0) / threshold) * 100));
+      : (autoM ? Math.min(100, Math.round(((prog.cleanStreak || 0) / threshold) * 100)) : Math.min(100, (prog.seen || 1) * 10));
 
     const statusLabel = prog.status === 'mastered'
       ? '✓ Освоено'
-      : `Прогресс: ${prog.cleanStreak || 0}/${threshold}`;
+      : (autoM ? `Прогресс: ${prog.cleanStreak || 0}/${threshold}` : `Встречено: ${prog.seen || 1} раз`);
 
     const baseDiffers = surface.toLowerCase() !== en.toLowerCase();
 
@@ -418,7 +420,7 @@
   // ==================== Viewport Exposure Observer ====================
   function setupIntersectionObserver() {
     if (intersectionObserver) intersectionObserver.disconnect();
-    if (typeof IntersectionObserver === 'undefined') return;
+    if (IS_DEMO_PAGE || typeof IntersectionObserver === 'undefined') return;
 
     intersectionObserver = new IntersectionObserver((entries) => {
       for (const ioEntry of entries) {
@@ -453,9 +455,9 @@
       maxCefr: effective.maxCefr,
       useRandomizer: effective.useRandomizer,
       smartGrammar: effective.smartGrammar,
-      hideMasteredWords: effective.hideMasteredWords,
+      hideMasteredWords: IS_DEMO_PAGE ? false : effective.hideMasteredWords,
       usePhrases: effective.usePhrases,
-      progressMap: state.progress,
+      progressMap: IS_DEMO_PAGE ? {} : state.progress,
       pageUsedIds
     });
 
