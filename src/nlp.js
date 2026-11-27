@@ -370,24 +370,29 @@
     return /(?:ым|им|ой|ей|ом|ем|ого|его|ую|юю|ые|ие|ых|их|ыми|ими)$/.test(wordLower);
   }
 
+  function sanitizeEnglishSurface(val) {
+    if (!val || typeof val !== 'string') return '';
+    return val.includes('_') ? val.replace(/_[a-z0-9]+$/i, '') : val;
+  }
+
   function resolveEnglishSurface(match, prevTokenLower, smartGrammar) {
     const { entry, formType } = match;
-    if (!smartGrammar) return entry.en;
+    if (!smartGrammar) return sanitizeEnglishSurface(entry.en);
 
-    if (formType === 'plural' && entry.enPlural) return entry.enPlural;
-    if (formType === 'past' && entry.enPast) return entry.enPast;
-    if (formType === '3s' && entry.en3s) return entry.en3s;
-    if (formType === 'ing' && entry.enIng) return entry.enIng;
-    if (formType === 'comp' && entry.enComp) return entry.enComp;
+    if (formType === 'plural' && entry.enPlural) return sanitizeEnglishSurface(entry.enPlural);
+    if (formType === 'past' && entry.enPast) return sanitizeEnglishSurface(entry.enPast);
+    if (formType === '3s' && entry.en3s) return sanitizeEnglishSurface(entry.en3s);
+    if (formType === 'ing' && entry.enIng) return sanitizeEnglishSurface(entry.enIng);
+    if (formType === 'comp' && entry.enComp) return sanitizeEnglishSurface(entry.enComp);
 
     if (formType === 'instrumental' && entry.instNuance && entry.instNuance.enPrep) {
       const hasPrepOrAdj = prevTokenLower && (
         RU_PREPOSITIONS.has(prevTokenLower) || looksLikeRussianAdj(prevTokenLower)
       );
-      if (!hasPrepOrAdj) return entry.instNuance.enPrep;
+      if (!hasPrepOrAdj) return sanitizeEnglishSurface(entry.instNuance.enPrep);
     }
 
-    return entry.en;
+    return sanitizeEnglishSurface(entry.en);
   }
 
   function splitSentences(text) {

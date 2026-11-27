@@ -5,12 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skvorling (Скворлинг) — Пассивный английский прямо в браузере</title>
   <meta name="description" content="Учите английский, просто читая привычные сайты. Умная контекстная подмена слов с учётом русской морфологии, времён и падежей.">
-  <link rel="icon" type="image/png" href="icons/icon48.png">
-  <meta property="og:title" content="Skvorling (Скворлинг) — Пассивный английский прямо в браузере">
-  <meta property="og:description" content="Учите английский, просто читая привычные сайты. 1 334 слова, русская морфология, времена и падежи — 100% бесплатно.">
-  <meta property="og:url" content="https://skvorling.ru">
-  <meta property="og:image" content="https://skvorling.ru/icons/icon128.png">
-  <meta property="og:type" content="website">
   <link rel="stylesheet" href="landing.css">
 </head>
 <body data-theme="colorful">
@@ -38,7 +32,7 @@
           <button type="button" data-theme="colorful" class="active" title="Красочная тема">🎨</button>
           <button type="button" data-theme="dark" title="Тёмная тема">🌙</button>
         </div>
-        <a href="demo/demo.html" class="btn btn-ghost">🧪 Демо</a>
+        <a href="demo/demo.html" class="btn btn-ghost">👀 Пример</a>
         <a href="#install" class="btn btn-primary">Установить</a>
       </div>
     </div>
@@ -68,7 +62,7 @@
         </p>
         <div class="hero-cta">
           <a href="#install" class="btn btn-primary btn-lg">Установить за 60 секунд →</a>
-          <a href="demo/demo.html" class="btn btn-secondary btn-lg">🧪 Открыть демо-статью</a>
+          <a href="demo/demo.html" class="btn btn-secondary btn-lg">👀 Пример работы</a>
         </div>
         <div class="hero-trust">
           <div class="trust-item"><strong>1 330+</strong><span>проверенных слов</span></div>
@@ -267,9 +261,6 @@
           <p class="mascot-lead">
             Скворцы — одни из лучших природных имитаторов в мире: они не зубрят правила, а просто впитывают звуки из окружающей среды. В названии <strong>Skvorling</strong> мы объединили русскую природу (<em>скворец</em>), латинское <em>lingua</em> (язык) и английский суффикс процесса <em>-ing</em>.
           </p>
-          <div style="margin-bottom: 18px;">
-            <a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BA%D0%B2%D0%BE%D1%80%D0%B5%D1%86" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">📖 Статья о скворце на Википедии →</a>
-          </div>
           <div class="story-pills">
             <div class="story-pill">
               <strong>🐦 Природная привычка</strong>
@@ -284,6 +275,18 @@
               <span>Скворец всегда рядом — подскажет перевод, озвучит слово и спрячет уже выученное.</span>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="wiki-callout glow-card">
+        <div class="wiki-callout-body">
+          <span class="wiki-callout-badge">📖 2 полезных дела за раз · живой тест</span>
+          <h3>Почитайте про скворцов на Википедии — и заодно подтяните английский</h3>
+          <p>Откройте статью об обыкновенном скворце с включённым Skvorling. Пока вы узнаёте, почему эта птица так мастерски перенимает звуки, расширение незаметно подставит английские слова прямо в текст. Это лучший пример незаметного обучения: вы читаете то, что интересно, а словарь растёт сам собой.</p>
+        </div>
+        <div class="wiki-callout-action">
+          <a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BA%D0%B2%D0%BE%D1%80%D0%B5%D1%86" target="_blank" rel="noopener" class="btn btn-primary">📖 Открыть статью о скворце →</a>
+          <span class="wiki-callout-hint">ru.wikipedia.org · работает сразу после установки</span>
         </div>
       </div>
     </div>
@@ -493,9 +496,9 @@
     <div class="container">
       <div class="section-head">
         <span class="section-eyebrow">Живая история релизов</span>
-        <h2>Последняя версия: <span class="gradient-text" data-skvorling-version>v2.9.0</span></h2>
+        <h2>Последняя версия: <span class="gradient-text" data-skvorling-version>v2.9.1</span></h2>
         <p>Как проверить свою версию: откройте попап Skvorling (номер рядом с логотипом) или карточку в <code>chrome://extensions</code>.</p>
-        <div class="ver-check-pill" id="verStatusBadge">✓ Вы смотрите актуальную сборку v2.9.0</div>
+        <div class="ver-check-pill" id="verStatusBadge">✓ Вы смотрите актуальную сборку v2.9.1</div>
       </div>
 
       <div class="cl-filters" id="clFilters">
@@ -506,10 +509,18 @@
       </div>
 
       <div class="timeline" id="clTimeline">
-        <div class="tl-item tl-latest" data-cats="product design">
+        <div class="tl-item tl-latest" data-cats="product design nlp">
           <div class="tl-dot pulse-dot"></div>
           <div class="tl-card glow-card">
-            <div class="cl-head"><span class="cl-ver">v2.9.0</span><span class="cl-tag">Актуальная</span><span class="tl-cat">✨ Продукт · 🎨 Иконки</span></div>
+            <div class="cl-head"><span class="cl-ver">v2.9.1</span><span class="cl-tag">Актуальная</span><span class="tl-cat">✨ Продукт · 🎨 Лендинг · 🧠 NLP</span></div>
+            <strong>«Пример работы» вместо «Демо», карточка Википедии и страховка от технических суффиксов</strong>
+            <p>Кнопка «Демо» переименована в «Пример работы» по всему продукту (чтобы не создавать ощущения платной или урезанной версии); ссылка на статью о скворце на Википедии вынесена в отдельную карточку под маскотом с идеей «2 полезных дела за раз»; добавлена runtime-защита в NLP-движке от любых технических суффиксов в переводе.</p>
+          </div>
+        </div>
+        <div class="tl-item" data-cats="product design">
+          <div class="tl-dot pulse-dot"></div>
+          <div class="tl-card glow-card">
+            <div class="cl-head"><span class="cl-ver">v2.9.0</span><span class="tl-cat">✨ Продукт · 🎨 Иконки</span></div>
             <strong>Честное освоение слов (автопорог 100 выкл. по умолчанию) и контрастные иконки</strong>
             <p>Автоматическое скрытие слов после 5 просмотров отключено по умолчанию (при включении порог увеличен до 100 просмотров); иконка скворца поднята над бейджем и получила светлый контур + яркий оранжевый клюв для отличной читаемости в светлой и тёмной темах.</p>
           </div>
@@ -582,8 +593,8 @@
         <p>Убедитесь за 30 секунд, как естественно мозг считывает английские слова в длинном русском контексте.</p>
       </div>
       <div class="cta-buttons">
-        <a href="demo/demo.html" class="btn btn-primary btn-lg">🧪 Открыть демо-статью</a>
-        <a href="./skvorling-extension.zip" download="skvorling-extension.zip" class="btn btn-secondary btn-lg">⬇️ Скачать .zip</a>
+        <a href="demo/demo.html" class="btn btn-primary btn-lg">👀 Открыть пример работы</a>
+        <a href="../dashboard/dashboard.html" class="btn btn-secondary btn-lg">📊 Открыть дашборд</a>
       </div>
     </div>
   </section>
@@ -611,8 +622,8 @@
       </a>
       <div class="footer-note">skvorling.ru · Автор: <a href="https://chikulev.ru" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">chikulev.ru</a> · Telegram: <a href="https://t.me/Chikulev" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">@Chikulev</a></div>
       <div class="footer-links">
-        <a href="demo/demo.html">Демо</a>
-        <a href="#install">Скачать</a>
+        <a href="demo/demo.html">Пример работы</a>
+        <a href="../dashboard/dashboard.html">Дашборд</a>
         <a href="#top">Наверх ↑</a>
       </div>
     </div>
